@@ -1,0 +1,7 @@
+empleado2 module
+================
+
+.. automodule:: empleado2
+   :members:
+   :undoc-members:
+   :show-inheritance:

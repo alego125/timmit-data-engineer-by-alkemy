@@ -1,0 +1,21 @@
+
+******************TESTING**************************
+
+Date -> 11/02/2022, 11:12:44
+
+***************************************************
+test_addition (__main__.TestCalculadoraOperations)
+Addition method test which is done in 2 ways, with assertEqual and assertTrue ... ok
+test_all (__main__.TestCalculadoraOperations)
+Test that contain the logic of other tests to create an a unic graph with all conections ... ok
+test_division (__main__.TestCalculadoraOperations)
+Division method test which is done in 2 ways, with assertEqual and assertTrue ... ok
+test_multiplication (__main__.TestCalculadoraOperations)
+Multiplication method test which is done in 2 ways, with assertEqual and assertTrue ... ok
+test_subtraction (__main__.TestCalculadoraOperations)
+Subtraction method test which is done in 2 ways, with assertEqual and assertTrue ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.071s
+
+OK
