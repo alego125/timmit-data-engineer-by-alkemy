@@ -2,6 +2,14 @@ import functions
 
 
 def main(file):
+    """Principal function, that recive the file name and read ir line by line
+    then call extract_information function to make transformations of information
+
+    :param file: file path
+    :type file: string
+    :return: file
+    :rtype: file
+    """
 
     functions.loggerMain.info("...Leyendo el archivo...")
 

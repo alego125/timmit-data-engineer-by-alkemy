@@ -10,14 +10,13 @@ loggerFunction = logging.getLogger("loggerFunction")
 
 
 def extract_information(file, opened_file):
-    """
-        function that Call obtain_stoy function and open
-        txt file and extract information, then log l
+    """Function that go throw the lines of opened file and extract information to be logged in logger object
     """
 
     loggerFunction.info(f"""{str(file)}
                             Cantidad de renglones: {len(opened_file)}""")
 
+    # Read line by line and split text in line to obtain len of line and show it in a log
     for line, content in enumerate(opened_file):
         palabras = content.split(" ")
         loggerFunction.info(f"Renglón {line}: {len(palabras)} palabras")
