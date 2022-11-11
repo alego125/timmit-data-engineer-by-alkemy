@@ -4,3 +4,4 @@
 **/Curso de sql server
 **/.vscode
 **/__pycache__
+*.log

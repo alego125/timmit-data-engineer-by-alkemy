@@ -21,3 +21,10 @@ Como aclaracion podremos ver que fuera de estas carpetas tenemos un archivo suel
 ## Unidad 4
 
 
+# Unidad 16
+----
+> En esta unidad realizamos conexiones a la base de datos a través de sqlalchemy el cual es un ORM con el cual podemos conectarnos a diferentes motores de bases de datos
+
+
+  
+
