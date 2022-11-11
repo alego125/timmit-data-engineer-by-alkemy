@@ -6,8 +6,9 @@
 > * Carpeta Practica: En esta estara lo referido a lo que se pide especificamente en la practica propuesta de la unidad
 > * Carpeta Ejemplo: En esta carpeta se encuentran practicas extra realizadas ademas de la propuesta
 
-## Unidad 1
->Se crean 2 ambientes de trabajo para practicar en un notebook
+## Indice
+----
+
 
 ## Unidad 2
 >Se crean 4 ambiente para pruebas, ademas se crear dentro de la carpeta SRC el archivo python correspondiente a la practica en el cual se realizan diferentes formas de llamar al archivo de configuracion .env que se encuentra en el directorio
