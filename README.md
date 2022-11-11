@@ -8,7 +8,23 @@
 
 ## Indice
 ----
-
+* [Unidad 1 - Entornos Virtuales](#unidad-1)
+* [Unidad 2 - Archivos de Configuracion](#unidad-2)
+* [Unidad 3 - Loguear Eventos](#unidad-3)
+* [Unidad 4 - Loguear Eventos 2](#unidad-4)
+* [Unidad 5 - Logueo de eventos en AirFlow](#unidad-5)
+* [Unidad 6 - Comentarios en python](#unidad-6)
+* [Unidad 7 - Dockstring](#unidad-7)
+* [Unidad 8 - PEP8 y Flake8](#unidad-8)
+* [Unidad 9 - Manejo de excepciones](#unidad-9)
+* [Unidad 10 - Testing](#unidad-10)
+* [Unidad 11 - Testing 2](#unidad-1)
+* [Unidad 12 - CI/CD](#unidad-12)
+* [Unidad 13 - DB Relacionales DDL](#unidad-13)
+* [Unidad 14 - DB Relacionales DML](#unidad-14)
+* [Unidad 15 - Teradata](#unidad-15)
+* [Unidad 16 - Acceso a base de datos SQLAlchemy](#unidad-16)
+* [Unidad 16 - Acceso a otros origenes de datos](#unidad-17)
 
 ## Unidad 2
 >Se crean 4 ambiente para pruebas, ademas se crear dentro de la carpeta SRC el archivo python correspondiente a la practica en el cual se realizan diferentes formas de llamar al archivo de configuracion .env que se encuentra en el directorio
