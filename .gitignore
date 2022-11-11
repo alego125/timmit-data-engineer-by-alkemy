@@ -5,3 +5,8 @@
 **/.vscode
 **/__pycache__
 *.log
+*.docx
+*.png
+*.jpg
+*.doc
+*.txt

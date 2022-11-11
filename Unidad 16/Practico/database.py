@@ -163,7 +163,7 @@ if __name__ == '__main__':
                     customer = Customer(name, age, email, address, zip_code)
                     dbinfo.saveData(customer)
                 except TypeError:
-                    logging.error(TypeError)
+                    logger.error(TypeError)
             case 2:
                 dbinfo.fetchUserByName()
 
@@ -176,14 +176,14 @@ if __name__ == '__main__':
                     address = input(f"Insert address to be replaced into register with name {name}: ")
                     dbinfo.updateCustomer(name, address)
                 except TypeError:
-                    logging.error(TypeError)
+                    logger.error(TypeError)
 
             case 5:
                 try:
                     name = input("Insert customer name to be deleted: ")
                     dbinfo.deleteCustomer(name)
                 except TypeError:
-                    logging.error(TypeError)
+                    logger.error(TypeError)
 
             case 6:
                 break
