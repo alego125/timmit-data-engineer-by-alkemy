@@ -60,3 +60,17 @@ palabras por cada una de ellas.
 ### Ejecución
 ----
 >Para este ejercicio simplemente basta con ejecutar el archivo functions.py en el cual se encuentra la llamada principal. No es necesaria mas configuracion ya que no se hay instalado ningun modulo externo solo se utiliza logging de python 
+>
+~~~
+Ejecución
+* Práctica
+  > python function.py
+* Ejemplo_1
+  > python uppermodule.py
+* Ejemplo_2
+  > python EjemploPrueba.py
+  > python rotatingFileHandler.py
+  > python timeRotatingFileHandler.py
+* Ejemplo_3
+  > python fileConfig.py
+~~~

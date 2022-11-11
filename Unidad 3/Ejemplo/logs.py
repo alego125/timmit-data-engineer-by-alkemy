@@ -1,3 +1,6 @@
+"""Modulo donde se prueban los handlers
+"""
+
 import logging
 
 # Creamos el logger personalizado

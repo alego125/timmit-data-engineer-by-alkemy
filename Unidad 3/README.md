@@ -23,3 +23,10 @@ Logging de la librería estándar de Python.
 ### Ejecución
 ---
 >Pa ra este ejercicio particularmente no se necesitan seteos previos ya que se utiliza el modulo logging de python que trae por defecto por lo cual para ejecutar simplente hacerlo desde el archivo fruits
+
+~~~
+* Practica
+  > python fruits.py
+* Ejemplo
+  > python logs.py
+~~~
