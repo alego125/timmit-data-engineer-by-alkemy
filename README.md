@@ -6,6 +6,22 @@
 > * Carpeta Practica: En esta estara lo referido a lo que se pide especificamente en la practica propuesta de la unidad
 > * Carpeta Ejemplo: En esta carpeta se encuentran practicas extra realizadas ademas de la propuesta
 
+**ANTES DE INICIAR**
+1) INICAR UN ENTORNO VIRTUAL GLOBAL EN LA CARPETA RAIZ CON EL SIGUIENTE 
+   COMANDO
+
+   <code>virtualenv nombreEntorno</code>
+
+2) LUEGO ACTIVAR EL ENRTORNO
+
+   **/nombreEntorno/Script/activate**
+
+3) INSTALAR DEPENDENCIAS
+   
+   <code>pip install -r requirements.txt</code>
+
+>Ejecutar los scripts con el entorno activado con excepcion de los scripts de las unidades 1 y 2 ya que aqui se utilizan entornos diferentes para las practicas
+
 ## Indice
 ----
 * [Unidad 1 - Entornos Virtuales](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%201)

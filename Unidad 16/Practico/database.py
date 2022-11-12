@@ -12,6 +12,14 @@ from sqlalchemy import MetaData, Table, Column
 from sqlalchemy.orm import Session
 from model import Customer, Base
 from logsHandlers import logger
+from decouple import config
+
+# Set environment variables into global variables to be use into Database class
+database = config('DATABASE_NAME')
+user = config('USER_NAME')
+password = config('PASSWORD')
+server = config('SERVER_NAME')
+port = config('PORT')
 
 
 class Database:
@@ -22,7 +30,7 @@ class Database:
         # Replace user, password, hostname and
         # database according to your configuration
         engine = db.create_engine(
-            'postgresql://postgres:admin@localhost:5432/test')
+            f'postgresql://{user}:{password}@{server}:{port}/{database}')
 
         Base.metadata.create_all(bind=engine)
     except Exception:

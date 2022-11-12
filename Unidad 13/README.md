@@ -178,3 +178,16 @@ misma abrimos el archivo “.sql” exportado. Una vez abierto, presionamos el b
 ejecutar para volver a crear la base de datos exportada.
 
 ![image](https://user-images.githubusercontent.com/76167482/201482437-c564efe1-69bf-48db-a14d-c42751274cbf.png)
+
+## Ejecicion de archivo .py
+---
+>Aca debemos primeramente realizar la instalacion de los modulos correspondientes o directamente ejecutar el requirements.txt principal en la carpeta raiz
+
+>Modulo pystd
+<code>pip install pystd</code>
+
+>Modulo pyodbc
+<code>pip install pyodbc</code>
+
+>Seguidamente para ejecutar el script colocar el comando por consola
+<code>python consultasSQLDDL.py</code>
