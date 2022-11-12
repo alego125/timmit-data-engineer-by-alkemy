@@ -23,3 +23,4 @@ mostrar las variables de entorno por pantalla utilizado dotenv
 >Se deben seguir los siguientes pasos
 >1) Crear un entorno virtual para la ejecucion en el mismo instalar las dependencias necesarias mediante pip install
 >2) Dentro del archivo .env se configuran las variables de entorno para hacer las pruebas que requiere el ejercicio
+>3) Instalar el modulo decouple-python con <code>pip install decouple-python</code> para realizar el llamado de las variables de entorno
