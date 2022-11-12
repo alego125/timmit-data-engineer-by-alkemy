@@ -1,8 +1,6 @@
-
-
+# Extract number of character of each element
+# in string_list and return it as a comprehension list
 def string_to_number(string_list: list) -> list:
-    # Extract number of character of each element
-    # in string_list and return it as a comprehension list
     return [len(string) for string in string_list]
 
 
