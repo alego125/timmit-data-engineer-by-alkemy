@@ -88,6 +88,8 @@ acceder a la herramienta.
 
 ![image](https://user-images.githubusercontent.com/76167482/201482288-652a51bc-d9ed-4ba0-b646-4e5be3641f8b.png)
 
+2) Ejecución
+
 Al ejecutarlo, aparecerá la pantalla de conexión al motor de SQL Server.
 Debemos seleccionar “Server Name” (Por defecto el nombre estará formado
 por “nombre_del_equipo\SQLEXPRESS”).
@@ -108,7 +110,7 @@ Presionar sobre el botón Ejecutar o presionar F5 para ejecutar.
 ![image](https://user-images.githubusercontent.com/76167482/201482318-a7c9fd97-3700-4cd5-8914-d4650d10f23e.png)
 
 Para avanzar, escribiremos la siguiente sentencia:
-create database prueba;
+<coce>create database prueba;</code>
 Presionar sobre el botón Ejecutar o presionar F5 para ejecutar.
 
 ![image](https://user-images.githubusercontent.com/76167482/201482329-3819f9a0-0fe5-40f5-b28a-9370df74e06c.png)
@@ -123,6 +125,8 @@ SQL Server Management Studio. Avanzamos al siguiente tema para poder
 comenzar a crear objetos en SQL Server.
 
 
+3) Exportacion
+   
 **Exportar sql**
 
 Desde la pantalla de SQL Server Management Studio y conectado a la base que
