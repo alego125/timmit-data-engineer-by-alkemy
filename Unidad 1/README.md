@@ -20,7 +20,7 @@ ambientes.
 
 ## Ejecución
 ---
->Se procesde a realizar las correspondiententes instalaciones mediante pip 
+>Se procede a realizar las correspondientes instalaciones mediante pip 
 >1) Primeramente se instala virtualenv mediante **pip install virtualenv**
->2) Luego se procede a la creacion del entorno virtual en mi caso fueron dos, mediante el comando en consola **/nombreEntorno/Script/activate**
->3) Seguidamente se pueden realizar 2 cosas una es instalar lo que necesitemos directamente con el comando **pip** por consola o la segunda es mediante un archivo requirements.txt. Si se elige la primera luego de terminar con las instalaciones se puede hacer el siguiente comando **pip freeze > requirements.txt** con el cual colocamos todas las dependencias instaladas dentro del archivo para luego poder ser instladas o usadas directamente desde el mismo, pero si se elige la segunda entonces podemos colocar las dependencias con sus repectivas versiones dentro y luego por consola hacer el comando **pip install -r requirements.txt**
+>2) Luego se procede a la creación del entorno virtual en mi caso fueron dos, mediante el comando en consola **/nombreEntorno/Script/activate**
+>3) Seguidamente se pueden realizar 2 cosas una es instalar lo que necesitemos directamente con el comando **pip** por consola o la segunda es mediante un archivo requirements.txt. Si se elige la primera luego de terminar con las instalaciones se puede hacer el siguiente comando **pip freeze > requirements.txt** con el cual colocamos todas las dependencias instaladas dentro del archivo para luego poder ser instaladas o usadas directamente desde el mismo, pero si se elige la segunda entonces podemos colocar las dependencias con sus respectivas versiones dentro y luego por consola hacer el comando **pip install -r requirements.txt**

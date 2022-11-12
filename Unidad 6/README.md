@@ -1,7 +1,7 @@
 # Unidad 6
 ----
 
->En este caso toca el tema de comentarios el cual se realiza de una manera muy sencilla, colocando comentarios a una logica propuesta de una programa de listado
+>En este caso toca el tema de comentarios el cual se realiza de una manera muy sencilla, colocando comentarios a una logica propuesta de un programa de listado
 
 ## Consigna
 ----
@@ -13,11 +13,11 @@ Ejemplo:
 Comentar la función de forma adecuada y utilizar nombres de
 variables descriptivas.
 
-## Ejecucion
+## Ejecución
 ----
 
 ~~~
-Para realizar la ejecuciión colocamos en el directorio actual
+Para realizar la ejecución colocamos en el directorio actual
 
 > python comentarios.py
 ~~~

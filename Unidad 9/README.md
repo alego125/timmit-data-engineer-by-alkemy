@@ -1,9 +1,9 @@
 # Unidad 9
 ----
 >En este caso estaremos realizando practicas sobre manejo de excepciones en python
->En la carpeta ejemplo se ve un modulo donde se hacen comprobaciones con una funcion y assert de por medio
->En la carpeta Practica tenemos dos modulos el modulo practico_exceptions_assert se probaron diferentes manera de trabajar con el assert siendo algunas funcionales y otras no solo dejamos la funcional si comentar.
->Luego en el modulo try-except se realiza una clase List que lo que hace es comprobar si un indice existe o no en la lista y apartir de esto lanzar una excepcion, cada metodo de la clase es una manera diferente de comprobasicion que se puede realizar
+>En la carpeta ejemplo se ve un módulo donde se hacen comprobaciones con una función y assert de por medio
+>En la carpeta Practica tenemos dos módulos el módulo practico_exceptions_assert se probaron diferentes maneras de trabajar con el assert siendo algunas funcionales y otras no solo dejamos la funcional si comentar.
+>Luego en el módulo try-except se realiza una clase List que lo que hace es comprobar si un índice existe o no en la lista y a partir de esto lanzar una excepción, cada método de la clase es una manera diferente de comprobación que se puede realizar
 
 ## Consigna
 ---
@@ -18,7 +18,7 @@ medios_transporte = ['auto', 'avión', 'barco', 'bicicleta', 'ómnibus' ]
 
 ## Ejecución 
 ----
-cada modulo se puede ejecutar independientemento por ejemplo para ejecutar el modulo que resuelve el practico requerido colocar en consola sobre la ruta del archivo el comando
+cada módulo se puede ejecutar independientemente por ejemplo para ejecutar el módulo que resuelve el practico requerido colocar en consola sobre la ruta del archivo el comando
 ~~~
 python try-except.py
 ~~~

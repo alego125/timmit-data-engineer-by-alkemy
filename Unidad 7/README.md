@@ -1,12 +1,12 @@
 # Unidad 7
 ----
->Aqui se realiza la creacion de docstrings mediante el modulo sphinx y su sintaxis.
->Para esto se realiza el ejercicio practico sujerido en la guia el cual se encuentra dentro de la carpeta "Practica" y tambien se realizo un ejemplo aparte el cual se encuentra en la carpeta ejemplo, el mismo fue propuesto en la guia.
+>Aquí se realiza la creación de docstrings mediante el módulo sphinx y su sintaxis.
+>Para esto se realiza el ejercicio práctico sugerido en la guía el cual se encuentra dentro de la carpeta "Practica" y tambien se realizó un ejemplo aparte el cual se encuentra en la carpeta ejemplo, el mismo fue propuesto en la guía.
 >
 >Ejemplo
->* Para este caso lo que se realiza es una clase Teacher  que contiene las propiedades de un profesor y los metodos para mostrarlas
+>* Para este caso lo que se realiza es una clase Teacher que contiene las propiedades de un profesor y los métodos para mostrarlas
 >Practico
->* Esta fue la resolucion del ejercicio propuesto en el cual se crea una clase empleado, la cual tiene propiedades de este y metodos que nos muestran esta informacion, ademas se realiza la documentacion mediante docstring con sphinx. Se realizaron dos modulos uno para mostrar la informacion en español y otro para mostrar la informacion en ingles, el segundo fue opcional y solo de practica para ver como mostrar mas de un modulo en la documentacion generada por sphinx.
+>* Esta fue la resolución del ejercicio propuesto en el cual se crea una clase empleado, la cual tiene propiedades de este y métodos que nos muestran esta información, además se realiza la documentación mediante docstring con sphinx. Se realizaron dos módulos uno para mostrar la información en español y otro para mostrar la información en inglés, el segundo fue opcional y solo de practica para ver como mostrar más de un módulo en la documentación generada por sphinx.
 
 ## Consigna
 ----
@@ -31,7 +31,7 @@ es 12345678”
 Documentar el módulo y las funciones utilizando Docstring y de ser
 posible implementar Sphinx para documentar el mismo.
 
-### Pasos previos a ejecucion
+### Pasos previos a ejecución
 ----
 1. Crear la siguiente estructura de carpetas. Adentro de la carpeta
 source crear el archivo main.py con el siguiente código.
@@ -46,7 +46,7 @@ Sphinx
     |---codigo.py
 ~~~
 
-* Dentro de source se coloca el codigo que utilizaremos
+* Dentro de source se coloca el código que utilizaremos
 
 2. Instalar Sphinx a través de la línea de comandos o la terminal del
 editor de código. <code>pip install -U sphinx</code>
@@ -97,14 +97,13 @@ editor de código. sphinx-quickstart
    docs/codigo
 ~~~
 
-Donde codigo es el nombre del o los modulo/s que hemos agregado o creado en source, esto lo que hace es que a la hora de crear el html de la documentacion se cree con los docstrings que se encuentren en ese o esos modulo/s.
+Donde código es el nombre del o los modulo/s que hemos agregado o creado en source, esto lo que hace es que a la hora de crear el html de la documentacion se cree con los docstrings que se encuentren en ese o esos modulo/s.
 
 ![image](https://user-images.githubusercontent.com/76167482/201475356-a00bff4e-ee0a-4985-b7fb-1817fee2b76d.png)
 
 Estructura de archivos
 
 ![image](https://user-images.githubusercontent.com/76167482/201475368-485eac3f-ba4f-4c0e-8d21-453ff7e5602c.png)
-
 
 ## Ejecución
 ----
@@ -118,7 +117,7 @@ de código. <code>make html</code>
 
 3. Dirigirse con la línea de comandos o la terminal a la carpeta
 build/html y luego ejecutar index.html o dirigirse a la carpeta en el explorador de 
-archivos de la izquierza, dentro de la carpeta build > html > index.html abrimos este archivo y tendremos la documentacion generada
+archivos de la izquierda, dentro de la carpeta build > html > index.html abrimos este archivo y tendremos la documentación generada
 
 Al finalizar veremos dentro del archivo index.html algo como lo siguiente:
 

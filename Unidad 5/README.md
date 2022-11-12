@@ -1,12 +1,12 @@
 # Unidad 5
 ----
-> Toda esta practica esta realizada en airflow mediante docker por media del framework [astronomer](https://docs.astronomer.io/astro/cli/overview)
+> Toda esta práctica esta realizada en airflow mediante docker por media del framework [astronomer](https://docs.astronomer.io/astro/cli/overview)
 
-El dag generado aca lo que hace es extraer informacion de un archivo csv y generar un archivo xlsx de excel a partir de estos, estos archivos se guardan en
+El dag generado acá lo que hace es extraer información de un archivo csv y generar un archivo xlsx de excel a partir de estos, estos archivos se guardan en
 ```
 include > archivos_temp
 ```
-Ademas los logs son generados por un handler personalizado mediante el modulo creado logs.py y estos son mostrados en consola y genera sus repectivos archivos en la carpeta
+Además los logs son generados por un handler personalizado mediante el módulo creado logs.py y estos son mostrados en consola y genera sus respectivos archivos en la carpeta
 ```
 include > logs
 ```
@@ -33,15 +33,15 @@ correctamente
 
 ### Ejecución
 ----
->Cabe aclarar que primero que nada al estar trabajando con atronomer el cual es un framework para airflow debemos instalarlo y este proceso puede variar segun el sistema operativo que tengamos para este paso hay que seguir las instrucciones oficiales de la pagina de [atronomer](https://docs.astronomer.io/astro/cli/install-cli)
+>Cabe aclarar que primero que nada al estar trabajando con atronomer el cual es un framework para airflow debemos instalarlo y este proceso puede variar según el sistema operativo que tengamos para este paso hay que seguir las instrucciones oficiales de la página de [atronomer](https://docs.astronomer.io/astro/cli/install-cli)
 
-Una vez instalado astronomer lo que se procede a hacer es la inicializacion del proyecto, en el directorio asignado mediante linea de comando escribir
+Una vez instalado astronomer lo que se procede a hacer es la inicialización del proyecto, en el directorio asignado mediante línea de comando escribir
 
 ~~~
 astro dev init
 ~~~
 
-Con esto inicializamos el proyecto creandose toda la estructura necesaria para correrlo.
+Con esto inicializamos el proyecto creándose toda la estructura necesaria para correrlo.
 
 Seguidamente se debe correr el arranque de los contenedores docker para poder acceder al proyecto creado para esto ejecutamos el comando
 
@@ -49,9 +49,9 @@ Seguidamente se debe correr el arranque de los contenedores docker para poder ac
 astro dev start
 ~~~
 
-De esta manera se descargan los contenedores (en caso de no tenerlos descargados) y seguidamente se inicializan mediante docker compose. Todo esto se hace automaticamente por detras de astronomer.
+De esta manera se descargan los contenedores (en caso de no tenerlos descargados) y seguidamente se inicializan mediante docker compose. Todo esto se hace automáticamente por detrás de astronomer.
 
-Una vez lanzado el proyecto podremos tener acceso, ya que automaticamente al terminar de ejecutarse lanza una ventana del navegador con la direccion para niciar sesion. 
+Una vez lanzado el proyecto podremos tener acceso, ya que automáticamente al terminar de ejecutarse lanza una ventana del navegador con la dirección para iniciar sesión. 
 
 ```
 Usuario -> admin
@@ -60,11 +60,11 @@ Contraseña -> admin
 ```
 
 **Ingresar al bash de astro**
-Para esto debemos ingresar el sigueinte comando
+Para esto debemos ingresar el siguiente comando
 ~~~
 astro dev bash
 ~~~
-Con esto entramos al bash de atronomer donde podremos colocar los comando de airflow como por ejemplo <code>airflow config</code> el cual es el comando para ver la configuracion de airflow. O tambien podremos acceder al archivo directamente navegando entre los archivos de atronomer hasta el archivo config de airflow.
+Con esto entramos al bash de atronomer donde podremos colocar los comandos de airflow como por ejemplo <code>airflow config</code> el cual es el comando para ver la configuración de airflow. O también podremos acceder al archivo directamente navegando entre los archivos de atronomer hasta el archivo config de airflow.
 
 **Resetear el servicio**
 ~~~
@@ -78,28 +78,28 @@ astro dev stop
 
 ##### Dependencias
 ----
-__En los casos donde queramos instalar nuevas dependencias, en astronomer deberemos hacerlo directamente en el archivo requirements.txt y realizar un reset del servicio, ya que automaticamente al reiniciar escanea los requerimientos nuevamente y en caso de encontrar uno nuevo lo instala en el proceso de inicio.__
+__En los casos donde queramos instalar nuevas dependencias, en astronomer deberemos hacerlo directamente en el archivo requirements.txt y realizar un reset del servicio, ya que automáticamente al reiniciar escanea los requerimientos nuevamente y en caso de encontrar uno nuevo lo instala en el proceso de inicio.__
 
-### Ejecucion y manejo de dags
+### Ejecución y manejo de dags
 ----
-* Si hacemos click sobre el dag que queremos utilizar en la pantalla principal de airlflow nos abrira el dag, dentro poderemos ver por ejemplo el graph que es como se ejecuta o el diagrama de ejecucion de dag que tenemos este se vera como la siguiente imagen:
+* Si hacemos clic sobre el dag que queremos utilizar en la pantalla principal de airlflow nos abrirá el dag, dentro podremos ver por ejemplo el graph que es como se ejecuta o el diagrama de ejecución de dag que tenemos este se vera como la siguiente imagen:
 
 ![image](https://user-images.githubusercontent.com/76167482/201475802-d9dbe0b0-16bf-4c35-ad15-8928bd68ff18.png)
 
-* Dentro de table o tree tendremos la secuencia de ejecuciones que se han realizado con sus respectivos colores los cuales nos indican el estado de cada ejecucion en la linea temporal
+* Dentro de table o tree tendremos la secuencia de ejecuciones que se han realizado con sus respectivos colores los cuales nos indican el estado de cada ejecución en la línea temporal
 
 ![image](https://user-images.githubusercontent.com/76167482/201475838-d27a6bdb-2ae2-4935-a70e-2b1802c390df.png)
 
-* Para ejecutar el dag somplemente se debe hacer click sobre el boton de play en la parte siperior derecha
+* Para ejecutar el dag simplemente se debe hacer clic sobre el botón de play en la parte superior derecha
 
 ##### Logs en dags y visualizacion
 
-* Si quisieramos ver los logs hacemos click en el último cuadrado verde de la tarea
+* Si quisiéramos ver los logs hacemos clic en el último cuadrado verde de la tarea
 del ejemplo “drop_table”, se abrirá el siguiente menú
 
 ![image](https://user-images.githubusercontent.com/76167482/201475873-8a6cc45a-b87a-4cc3-b9ca-38206c777b8f.png)
 
-* Si hacemos click en el botón “Log”, accederemos a los logs de esa
+* Si hacemos clic en el botón “Log”, accederemos a los logs de esa
 tarea, que se encuentran detallados en el panel “Log by attempts”
 
 ![image](https://user-images.githubusercontent.com/76167482/201475889-9d764103-e855-4382-a622-e8ba920f0b9b.png)
@@ -152,3 +152,5 @@ Podemos comprobar:
 >manual__2022-08-04T15:19:40.663716+00:00 [queued]
 
 ### Para informacion extra sobre dags y airflow visitar [Pagina oficial de airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
+
+

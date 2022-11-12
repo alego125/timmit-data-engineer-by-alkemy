@@ -1,8 +1,8 @@
 # Unidad 3
 ----
->Contamos con dos carpetas en la carpeta practica tenemos la practica correspondiente a lo propuesto en el apunte, donde se crean dos archivos .py, uno para la logica y otro para la configuracion de logs, ademas de el correspondiente archivo .log
+>Contamos con dos carpetas en la carpeta practica tenemos la práctica correspondiente a lo propuesto en el apunte, donde se crean dos archivos .py, uno para la lógica y otro para la configuración de logs, además del correspondiente archivo .log
 >
->Luego en la carpeta ejemplo lo que se hace es crear un archivo .py con un ejemplo de practica con handlers un poco mas extenso ademas de realizar una pequeña configuracion del modulo flake8 para que no tome el maximo de 72 caracteres.
+>Luego en la carpeta ejemplo lo que se hace es crear un archivo .py con un ejemplo de practica con handlers un poco más extenso además de realizar una pequeña configuración del módulo flake8 para que no tome el máximo de 72 caracteres.
 
 ### Consigna
 ----
@@ -22,10 +22,10 @@ Logging de la librería estándar de Python.
 
 ### Ejecución
 ---
->Pa ra este ejercicio particularmente no se necesitan seteos previos ya que se utiliza el modulo logging de python que trae por defecto por lo cual para ejecutar simplente hacerlo desde el archivo fruits
+>Para este ejercicio particularmente no se necesitan seteos previos ya que se utiliza el módulo logging de python que trae por defecto por lo cual para ejecutar simplente hacerlo desde el archivo fruits
 
 ~~~
-* Practica
+* Práctica
   > python fruits.py
 * Ejemplo
   > python logs.py

@@ -1,6 +1,6 @@
 # Unidad 14
 ---
->En esta tenemos un practico propuesto en la guia asi como tambien un ejercicio de colaboracion donde se revisan las queries de ambos grupos siendo un grupo el que hace las queries pares y otro las impares, luego se intercambian estos archivos .sql para corroborar y revisar las consultas del otro
+>En esta tenemos un practico propuesto en la guía así como también un ejercicio de colaboración donde se revisan las queries de ambos grupos siendo un grupo el que hace las queries pares y otro las impares, luego se intercambian estos archivos .sql para corroborar y revisar las consultas del otro
 
 ## Consigna
 ---
@@ -24,8 +24,8 @@ más de 4 materiales. Mostrar la forma de invocar esa vista.
 ## Ejecución
 ---
 #### Practico
-1) Primero ejecutar el archivo **SQL_DML.sql** en el cual se encuentran las queries para la creacion de la base de datos con los registros.
-2) Luego abrir el archivo **Consultas_Practico.sql** para ejecutar las consultas, las cuales deberan ser ejecutadas una a una seleccionando la querie del ejercicio en cuestion.
+1) Primero ejecutar el archivo **SQL_DML.sql** en el cual se encuentran las queries para la creación de la base de datos con los registros.
+2) Luego abrir el archivo **Consultas_Practico.sql** para ejecutar las consultas, las cuales deberán ser ejecutadas una a una seleccionando la querie del ejercicio en cuestión.
 
 #### Ejercicio extra en grupos
 1) Primeramente ejecutar el archivo **crate_db_classicmodels.sql** para crear la base de datos con los registros

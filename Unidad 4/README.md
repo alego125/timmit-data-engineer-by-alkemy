@@ -1,14 +1,14 @@
 # Unidad 4
 ----
->Realizamos la practica de la unidad correspondiente dentro de la carpeta practica, donde se realiza la estructura correspondiente y se realizan los archivos con sus configuraciones correspondientes, realizando la impresion de logs dentro de la carpeta Logs separados en dos tipos main y functions
+>Realizamos la práctica de la unidad correspondiente dentro de la carpeta práctica, donde se realiza la estructura correspondiente y se realizan los archivos con sus configuraciones correspondientes, realizando la impresión de logs dentro de la carpeta Logs separados en dos tipos main y functions
 >
 >Luego se realizaron 3 ejemplo aparte de practica 
 > 
->En la carpeta ejemplo_1 se planteo un ejercicio donde se realiza la cuenta de palabras dentro de un archivo de texto donde dicha cuenta genera un archivo csv con la inforamcion y ademas se loguea el proceso que se realiza
+>En la carpeta ejemplo_1 se planteó un ejercicio donde se realiza la cuenta de palabras dentro de un archivo de texto donde dicha cuenta genera un archivo csv con la información y además se loguea el proceso que se realiza
 >
 >En el ejemplo_2 lo que se hace es realizar pruebas con rotatingFileHandlers y timeRotatingFileHandlers, realizando logs de diferentes maneras
 >
->Por ultimo en el ejemplo 3 se realiza una configuracion personalizada de los logs en un archivo .conf
+>Por último en el ejemplo 3 se realiza una configuración personalizada de los logs en un archivo .conf
 
 ### Consigna
 ----
@@ -59,7 +59,7 @@ palabras por cada una de ellas.
 
 ### Ejecución
 ----
->Para este ejercicio simplemente basta con ejecutar el archivo functions.py en el cual se encuentra la llamada principal. No es necesaria mas configuracion ya que no se hay instalado ningun modulo externo solo se utiliza logging de python 
+>Para este ejercicio simplemente basta con ejecutar el archivo functions.py en el cual se encuentra la llamada principal. No es necesaria más configuración ya que no se hay instalado ningún modulo externo solo se utiliza logging de python 
 >
 ~~~
 Ejecución

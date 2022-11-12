@@ -1,8 +1,8 @@
 # Unidad 11
 ---
->En este modulo se aborda la documentacion de los tests.
->Se realizaron 2 ejemplos cada uno de estos fueron ejemplo planteados en el apuente donde se probaron maneras sencillas de testeo y sobre todo de generacion de documentacion de estos
->Luego en la carpeta practica se realiza el ejercicio propuesto en la practica donde se generan sus tests con su respectiva documentacion, para este caso se utilizan los packetes de calculadora usandoes en la unidad anterior, tambien se le agregaron logs y comentarios extras ademas que se probo agregando una funcion extra que integre todos los test para que estos sean diagramados en un diagrama unico que contenga la secuencia completa de test ademas de laso tests individuales lo cual no se le podria encontrar mucho sentido debido a la simplicidad de los mismos
+>En este módulo se aborda la documentación de los tests.
+>Se realizaron 2 ejemplos cada uno de estos fueron ejemplo planteados en el apunte donde se probaron maneras sencillas de testeo y sobre todo de generación de documentación de estos
+>Luego en la carpeta practica se realiza el ejercicio propuesto en la práctica donde se generan sus tests con su respectiva documentación, para este caso se utilizan los paquetes de calculadora usados en la unidad anterior, también se le agregaron logs y comentarios extras además que se probó agregando una función extra que integre todos los test para que estos sean diagramados en un diagrama único que contenga la secuencia completa de test además de laso tests individuales lo cual no se le podría encontrar mucho sentido debido a la simplicidad de los mismos
 
 ## Consigna
 ---
@@ -17,10 +17,10 @@ de la secuencia del test.
 
 **ANTES QUE NADA PARA LA EJECUCIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV**
 
-1) Instalamos el modulo encargado de la generacion automatica de la documentacion llamado dics from test con el siguiente comando <code>pip install docs-from-tests</code>
-2) Ejecutamos el test posicionandonos en la carpeta de test y colocando el comando <code>pyhton test_calculadora.py</code>
+1) Instalamos el módulo encargado de la generación automática de la documentación llamado dics from test con el siguiente comando <code>pip install docs-from-tests</code>
+2) Ejecutamos el test posicionándonos en la carpeta de test y colocando el comando <code>pyhton test_calculadora.py</code>
 
-##### Secuencia de pasos para la generacion de proyecto, configuracion modulo y generacion de documentacion
+##### Secuencia de pasos para la generación de proyecto, configuración modulo y generación de documentación
 
 1) Generar la estructura del proyecto
 
@@ -34,9 +34,9 @@ de la secuencia del test.
     |---test.py
 ~~~
 
-En esta estructura colocaremos en functions (o puede tener el nombre que queramos) el codigo nuestro, en tests los tests correspondientes, y en la carpeta doc sera donde se generen automaticamente con el modulo los respectivos diagramas
+En esta estructura colocaremos en functions (o puede tener el nombre que queramos) el código nuestro, en tests los tests correspondientes, y en la carpeta doc será donde se generen automáticamente con el módulo los respectivos diagramas
 
-2) Ejemplo de codigo para cada modulo
+2) Ejemplo de código para cada modulo
 
 El módulo functions contiene tres funciones:
 * hola (): que retorna la cadena ‘hola’
@@ -76,9 +76,9 @@ diagrama generado.
 
 ![image](https://user-images.githubusercontent.com/76167482/201480226-63accc27-9ab3-451c-a27a-119517dcc579.png)
 
-**Definir documentacion de resultados en archivo txt**
+**Definir documentación de resultados en archivo txt**
 
->Podemos ver mejor la implementacion dentro de [Ejemplo_2](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%2011/Ejemplo_2)
+>Podemos ver mejor la implementación dentro de [Ejemplo_2](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%2011/Ejemplo_2)
 
 Definimos dos funciones:
 
@@ -102,4 +102,4 @@ siguientes tests:
 
 ![image](https://user-images.githubusercontent.com/76167482/201480304-2175a26c-5f74-4ccc-a768-3ed8f2904a91.png)
 
-Para conocer mas de este modulo de documentacion doc-from-tests visutar su [pagina oficial](https://pypi.org/project/docs-from-tests/)
+Para conocer más de este módulo de documentación doc-from-tests visitar su [página oficial](https://pypi.org/project/docs-from-tests/)

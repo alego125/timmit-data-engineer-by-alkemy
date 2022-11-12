@@ -1,7 +1,7 @@
 # Unidad 13
 ---
->En esta unidad se realizo la creacion de una base de datos con la posterior insercion de datos para luego generar un archivo .sql con la exportacion de la base de datos para luego ser importada por otro usuario o recuperarse en caso de ser necesario
->Tabien se probaron dos modulos de python para maner estas bases de datos desde codigo python mediante queries uno es pytds y el otro pyodbc
+>En esta unidad se realizó la creación de una base de datos con la posterior inserción de datos para luego generar un archivo .sql con la exportación de la base de datos para luego ser importada por otro usuario o recuperarse en caso de ser necesario
+>También se probaron dos módulos de python para manera estas bases de datos desde código python mediante queries uno es pytds y el otro pyodbc
 
 ## Consigna
 ---
@@ -25,7 +25,7 @@ punto 6
 ## Ejecución
 ---
 
-1) Instalacion de SQL Server
+1) Instalación de SQL Server
    
 Para comenzar con la instalación de SQL server express, debemos ingresar 
 a la siguiente [URL](https://www.microsoft.com/es-es/sql-server/sql-server-downloads):
@@ -124,8 +124,7 @@ De esta forma, se verifica la correcta instalación de SQL Server Express y
 SQL Server Management Studio. Avanzamos al siguiente tema para poder
 comenzar a crear objetos en SQL Server.
 
-
-3) Exportacion
+3) Exportación
    
 **Exportar sql**
 
@@ -150,7 +149,7 @@ la siguiente pantalla:
 
 ![image](https://user-images.githubusercontent.com/76167482/201482387-2844d4bd-eb4c-471a-ab7b-d9b7ba657a6b.png)
 
-Debemos cambiar la configuracion dentro de advance para que exporte no solo el script de creacion de la tabla si no que tambien incluya el de insercion de datos
+Debemos cambiar la configuración dentro de advance para que exporte no solo el script de creacion de la tabla si no que también incluya el de inserción de datos
 
 ![image](https://user-images.githubusercontent.com/76167482/201482407-5012e454-3a43-4d35-ac90-0eb9824bb337.png)
 
@@ -181,7 +180,7 @@ ejecutar para volver a crear la base de datos exportada.
 
 ## Ejecicion de archivo .py
 ---
->Aca debemos primeramente realizar la instalacion de los modulos correspondientes o directamente ejecutar el requirements.txt principal en la carpeta raiz
+>Acá debemos primeramente realizar la instalación de los módulos correspondientes o directamente ejecutar el requirements.txt principal en la carpeta rais
 
 >Modulo pystd
 <code>pip install pystd</code>

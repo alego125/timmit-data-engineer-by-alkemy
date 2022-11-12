@@ -1,6 +1,6 @@
 # Unidad 2
 ----
->Se crean 4 ambiente para pruebas, ademas se crear dentro de la carpeta SRC el archivo python correspondiente a la practica en el cual se realizan diferentes formas de llamar al archivo de configuracion .env que se encuentra en el directorio
+>Se crean 4 ambiente para pruebas, además se crear dentro de la carpeta SRC el archivo python correspondiente a la practica en el cual se realizan diferentes formas de llamar al archivo de configuración .env que se encuentra en el directorio
 
 ### Consigna
 ----
@@ -21,6 +21,6 @@ mostrar las variables de entorno por pantalla utilizado dotenv
 ### Ejecución
 ---
 >Se deben seguir los siguientes pasos
->1) Crear un entorno virtual para la ejecucion en el mismo instalar las dependencias necesarias mediante pip install
+>1) Crear un entorno virtual para la ejecución en el mismo instalar las dependencias necesarias mediante pip install
 >2) Dentro del archivo .env se configuran las variables de entorno para hacer las pruebas que requiere el ejercicio
->3) Instalar el modulo decouple-python con <code>pip install decouple-python</code> para realizar el llamado de las variables de entorno
+>3) Instalar el módulo decouple-python con <code>pip install decouple-python</code> para realizar el llamado de las variables de entorno
