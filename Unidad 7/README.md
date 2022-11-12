@@ -99,6 +99,13 @@ editor de código. sphinx-quickstart
 
 Donde codigo es el nombre del o los modulo/s que hemos agregado o creado en source, esto lo que hace es que a la hora de crear el html de la documentacion se cree con los docstrings que se encuentren en ese o esos modulo/s.
 
+![image](https://user-images.githubusercontent.com/76167482/201475356-a00bff4e-ee0a-4985-b7fb-1817fee2b76d.png)
+
+Estructura de archivos
+
+![image](https://user-images.githubusercontent.com/76167482/201475368-485eac3f-ba4f-4c0e-8d21-453ff7e5602c.png)
+
+
 ## Ejecución
 ----
 Luego de haber realizado los pasos anteriores
@@ -113,3 +120,6 @@ de código. <code>make html</code>
 build/html y luego ejecutar index.html o dirigirse a la carpeta en el explorador de 
 archivos de la izquierza, dentro de la carpeta build > html > index.html abrimos este archivo y tendremos la documentacion generada
 
+Al finalizar veremos dentro del archivo index.html algo como lo siguiente:
+
+![image](https://user-images.githubusercontent.com/76167482/201475405-b5de4bd9-44aa-4f48-82b9-c2629d2f8c53.png)
