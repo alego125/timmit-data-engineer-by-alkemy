@@ -35,6 +35,11 @@ correctamente
 ----
 >Cabe aclarar que primero que nada al estar trabajando con atronomer el cual es un framework para airflow debemos instalarlo y este proceso puede variar según el sistema operativo que tengamos para este paso hay que seguir las instrucciones oficiales de la página de [atronomer](https://docs.astronomer.io/astro/cli/install-cli)
 
+**Instalación**
+1) Descargar el archivo astro.exe
+2) Crear carpeta en el disco C:/astro dentro de esta llevar el .exe
+3) Crear entrada al path de variables de entorno tanto del usuario com odel sistema colocar en el path la ruta C:/astro/astro.exe
+
 Una vez instalado astronomer lo que se procede a hacer es la inicialización del proyecto, en el directorio asignado mediante línea de comando escribir
 
 ~~~
