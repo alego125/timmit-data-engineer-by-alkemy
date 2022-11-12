@@ -2,6 +2,15 @@
 ----
 > Toda esta practica esta realizada en airflow mediante docker por media del framework [astronomer](https://docs.astronomer.io/astro/cli/overview)
 
+```
+El dag generado aca lo que hace es extraer informacion de un archivo csv y generar un archivo xlsx de excel a partir de estos, estos archivos se guardan en
+
+include > archivos_temp
+
+Ademas los logs son generados por un handler personalizado mediante el modulo creado logs.py y estos son mostrados en consola y genera sus repectivos archivos en la carpeta
+
+include > logs
+```
 
 ### Consigna
 ----

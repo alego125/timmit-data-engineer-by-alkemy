@@ -1,14 +1,5 @@
 import logs
 
-# Other way to make loging config is with logging basicConfig
-# import logging
-
-# logging.basicConfig(
-#     level=logging.DEBUG,
-#     filename='results.log',
-#     format='%(asctime)s - %(name)s - %(message)s'
-# )
-
 
 fruits = ['Frutilla', 'Melón', 'PERA', 99.6, 'NaranJA', 'mORa', 'NisPERo', 99]
 
@@ -19,13 +10,14 @@ for pos, fruit in enumerate(fruits):
 
     :param: fruits: list of fruits names
     """
-
+    # FORMA 1
     # if type(fruit) == str:
     #     fruits[pos]=fruit.lower()
     #     logging.info(f"Conversion exitosa: {fruit} -> {fruits[pos]}")
     # else:
     #     logging.error(f"Conversión Fallida: {fruit}")
 
+    #FORMA 2
     try:
         fruta = fruit.lower()
         fruits[pos] = fruta
