@@ -1,3 +1,4 @@
+# No puede conectarse al servidor ERROR EN EL SERVERNAME
 # import pytds
 # with pytds.connect('DESKTOP-0L9GVII/SQLEXPRESS', 'SQL_DML', 'timmit', '1234') as conn:
 #     with conn.cursor() as cur:
