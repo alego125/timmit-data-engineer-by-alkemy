@@ -1,6 +1,7 @@
 """Module that evaluete a list index if exist or not in diferents ways
 """
 
+
 class Lists:
     """Class that serch index lists into lists in diferents ways.
 

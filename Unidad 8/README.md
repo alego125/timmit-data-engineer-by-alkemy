@@ -1,6 +1,7 @@
 # Unidad 8
 ----
 >En este caso se realizaron modificaciones de archivos anteriores para validar el cumplimiento de las normas PEP8, aunque en este caso se creo un archivo para ver cuestiones especificas como lineas con mas de 72 caracteres y la validaciones mediante modulos como flake8 el cual nos ayuda a la hora de validar la norma en nuestros documentos
+>Tambien se implemento a modo de practica un archvio setup.cfg en el cual se configuro a flake8 para que el mismo evada el analisis de los 72 caracteres de la norma
 
 ## Consigna
 ----

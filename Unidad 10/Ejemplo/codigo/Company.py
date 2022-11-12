@@ -1,3 +1,7 @@
+"""Module that have a function with a dict of cuntries this function recieve 
+an argument iso code that itbe use to match code in dict and return it
+"""
+
 def get_country(iso_code=None):
     country_dict = {
         'DK': {
