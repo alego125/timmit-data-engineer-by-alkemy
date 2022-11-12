@@ -16,7 +16,8 @@ def example1():
     return (some_tuple, some_variable)
 
 
-def example2(): return {'has_key() is deprecated': True}.has_key(
+def example2(): 
+    return {'has_key() is deprecated': True}.has_key(
     {'f': 2}.has_key(''))
 
 

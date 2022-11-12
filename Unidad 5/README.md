@@ -59,6 +59,13 @@ Usuario -> admin
 Contraseña -> admin
 ```
 
+**Ingresar al bash de astro**
+Para esto debemos ingresar el sigueinte comando
+~~~
+astro dev bash
+~~~
+Con esto entramos al bash de atronomer donde podremos colocar los comando de airflow como por ejemplo <code>airflow config</code> el cual es el comando para ver la configuracion de airflow. O tambien podremos acceder al archivo directamente navegando entre los archivos de atronomer hasta el archivo config de airflow.
+
 **Resetear el servicio**
 ~~~
 astro dev restart
