@@ -1,10 +1,9 @@
 # Unidad 17
 ---
->Trabajamos con diferenctes codigos para tratar diferentes origenes de datos como txt, csv, json o xml.
->Colocamos en la carpeta practico > acceso_archivos > textDormatFilesAccess.py el archivo con diferentes maneras deacceso a los diferentes tipos de archivos txt, csv, json y xml 
->Dentro de la carpeta APIRestFlask colocamos el archivo FlaskApi.py en el cual creamos una api con flask que accede a una base de datos y hace un pequeño crud sobre una tabla que se creo en una unidad anterior
->Dentro de la carpeta FastApi encontramos otro archivo main.py Y otros modulos conla logica de conexion a la base de datos, donde se realiza una api con fastapi para generar un pequeño crud a la tabla existente en dicha base de datos.
-
+>Trabajamos con diferentes códigos para tratar diferentes orígenes de datos como txt, csv, json o xml.
+>Colocamos en la carpeta practico > acceso_archivos > textDormatFilesAccess.py el archivo con diferentes maneras de acceso a los diferentes tipos de archivos txt, csv, json y xml 
+>Dentro de la carpeta APIRestFlask colocamos el archivo FlaskApi.py en el cual creamos una api con flask que accede a una base de datos y hace un pequeño crud sobre una tabla que se creó en una unidad anterior
+>Dentro de la carpeta FastApi encontramos otro archivo main.py Y otros modelos con la lógica de conexión a la base de datos, donde se realiza una api con fastapi para generar un pequeño crud a la tabla existente en dicha base de datos.
 
 ## Ejecuciones
 
@@ -22,7 +21,7 @@ python textFormatFilesAccess.py
    ~~~
    pip install flask
    ~~~
-2) Crear el archivo .env de configuracion con los datos de la base de datos para poder realizar la conexion
+2) Crear el archivo .env de configuración con los datos de la base de datos para poder realizar la conexión
    __Se deja el modelo para armar el archivo:__
    ~~~
    DATABASE_NAME=
@@ -32,7 +31,7 @@ python textFormatFilesAccess.py
    PORT=
    ~~~
 
-Para correr flask insertar en cosola el comando
+Para correr flask insertar en consola el comando
 ~~~
 flask --app nombreArchivopy run
 ~~~
@@ -40,7 +39,6 @@ flask --app nombreArchivopy run
 ##### Ends Points
 ----
 ![image](https://user-images.githubusercontent.com/76167482/201550573-eae2245c-ac33-4e2f-9057-b2bd17af8af4.png)
-
 
 ### FastAPI
 ----
@@ -53,7 +51,7 @@ flask --app nombreArchivopy run
    pip install "uvicorn[standard]"
    ~~~
 
-3) Crear el archivo .env de configuracion con los datos de la base de datos para poder realizar la conexion
+3) Crear el archivo .env de configuración con los datos de la base de datos para poder realizar la conexión
    __Se deja el modelo para armar el archivo:__
    ~~~
    DATABASE_NAME=
@@ -63,13 +61,11 @@ flask --app nombreArchivopy run
    PORT=
    ~~~
 
-Para correr el servidor nos ubicamos en el directorio de la aplicacion y corremos el comando
+Para correr el servidor nos ubicamos en el directorio de la aplicación y corremos el comando
 ~~~
 uvicorn main:app --reload
 ~~~
 
-Luego de levantar el servidor de la aplicacion:
-Se podra acceder a la ruta para ver la documentacion de la api y sus end points
+Luego de levantar el servidor de la aplicación:
+Se podrá acceder a la ruta para ver la documentación de la api y sus end points
 **http://localhost:8000/docs**
-
-
