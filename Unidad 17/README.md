@@ -39,7 +39,7 @@ flask --app nombreArchivopy run
 
 ##### Ends Points
 ----
-imagen
+![image](https://user-images.githubusercontent.com/76167482/201550573-eae2245c-ac33-4e2f-9057-b2bd17af8af4.png)
 
 
 ### FastAPI
