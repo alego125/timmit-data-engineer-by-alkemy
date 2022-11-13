@@ -1,0 +1,15 @@
+2022-11-11 07:28:10,692 - INFO - 108 - Info saved successfuly
+2022-11-11 07:28:56,103 - INFO - 127 - Element updated succesfully
+2022-11-11 08:45:40,199 - INFO - Info saved successfuly
+2022-11-11 08:47:48,032 - logsHandlers - INFO - Element updated succesfully
+2022-11-12 15:16:50,345 - logsHandlers - ERROR - Error <class 'Exception'>
+2022-11-13 18:47:17,929 - logsHandlers - INFO - Info saved successfuly
+2022-11-13 19:32:06,055 - logsHandlers - INFO - Element updated succesfully
+2022-11-13 19:35:38,023 - logsHandlers - INFO - Customer <Customer(name=Miguel,age=33,email=migue@gmail.com, address=9 de julio 22, Zip Code=324234dfd)> deleted
+2022-11-13 19:38:06,212 - logsHandlers - INFO - Customer 
+            name:alexis
+            age:22
+            email:ale_g@gmail.com
+            address:pipa 32
+            zip_code:3321
+         deleted
