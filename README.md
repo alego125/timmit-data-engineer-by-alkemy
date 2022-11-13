@@ -1,10 +1,10 @@
 # Data Engineer Timmit Training Program
 ----
->Cada unidad tiene su explicacion correspondiente.
+>Cada unidad tiene su explicación correspondiente.
 >Cada Carpeta de unidad contiene en su interior una o dos subcarpetas
 >
-> * Carpeta Practica: En esta estara lo referido a lo que se pide especificamente en la practica propuesta de la unidad
-> * Carpeta Ejemplo: En esta carpeta se encuentran practicas extra realizadas ademas de la propuesta
+> * Carpeta Practica: En esta estará lo referido a lo que se pide específicamente en la práctica propuesta de la unidad
+> * Carpeta Ejemplo: En esta carpeta se encuentran practicas extra realizadas además de la propuesta
 
 **ANTES DE INICIAR**
 1) INICAR UN ENTORNO VIRTUAL GLOBAL EN LA CARPETA RAIZ CON EL SIGUIENTE 
@@ -40,4 +40,5 @@
 * [Unidad 14 - DB Relacionales DML](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%2014)
 * [Unidad 15 - Teradata - Sin Contenido]()
 * [Unidad 16 - Acceso a base de datos SQLAlchemy](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%2016)
-* [Unidad 17 - Acceso a otros origenes de datos]()
+* [Unidad 17 - Acceso a otros orígenes de datos](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2017)
+)

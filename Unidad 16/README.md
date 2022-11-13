@@ -29,6 +29,8 @@ Como ejemplo, crearemos una base de datos llamada test
 
 **Instalacion de modulos**
 
+**ANTES QUE NADA PARA LA EJECUCIÓN E INSTALACIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV**
+
 * Instalamos SQLAlchemy si no lo está, esto lo podemos hacer directamente con **pip install SQLAlchemy** o **pip install -r requirements.txt** directamente con el archivo de requirements
 * Instalamos psycopg2 el modulo driver postrgresql de la misma manera lo podemos hacer directamente con **pip install psycopg2** o con requirements.txt
 
