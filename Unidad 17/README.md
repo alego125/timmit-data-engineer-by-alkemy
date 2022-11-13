@@ -13,7 +13,7 @@
 ----
 Para este simplemente ejecutar el siguiente comando posicionados en la ruta del archivo
 ~~~
-python tstFormatFilesAccess.py
+python textFormatFilesAccess.py
 ~~~
 
 ### FlaskAPI
