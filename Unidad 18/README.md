@@ -46,11 +46,19 @@
 #### Algunos comandos utiles
 ---
 **show dbs**: Muestra las base de datos credas
+
 **use nombrebasededatos**: Ingresa a la base de datos indicada y si no existe la crea
+
 **db**: Muestra la base de datos en la cual nos encontramos
+
 **db.healp()**: Muestra lista de comandos que se pueden usar en la base de datos actual
+
 **db.createCollection("NombreColeccion")**: Crea colleccion con el nombre indicado
+
 **db.NombreColeccion.drop()**: Elimina coleccion indicada
+
 **show collections**: Muestra colecciones existentes
+
 **db.NombreColleccion.insertOne({})**: Inserta un solo documento en la coleccion
+
 **db.NombreColeccion.insertMany({})**: Inserta varios documentos dentro de la coleccion indicada
