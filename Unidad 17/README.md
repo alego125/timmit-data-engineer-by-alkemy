@@ -68,6 +68,9 @@ Para correr el servidor nos ubicamos en el directorio de la aplicación y correm
 uvicorn main:app --reload
 ~~~
 
+### Documentación
 Luego de levantar el servidor de la aplicación:
 Se podrá acceder a la ruta para ver la documentación de la api y sus end points
 **http://localhost:8000/docs**
+![image](https://user-images.githubusercontent.com/76167482/201641804-e4fd63db-f252-4685-bd3a-05a6edb6b412.png)
+----
