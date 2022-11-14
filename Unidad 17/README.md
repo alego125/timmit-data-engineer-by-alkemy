@@ -69,7 +69,7 @@ uvicorn main:app --reload
 ~~~
 
 
-Luego de levantar el servidor de la aplicación:
+### Luego de levantar el servidor de la aplicación:
 Se podrá acceder a la ruta para ver la documentación de la api y sus end points
 **http://localhost:8000/docs**
 
