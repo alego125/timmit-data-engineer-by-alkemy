@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from database import Database
 from model import Customer
 from baseModels import Customers
@@ -11,7 +11,7 @@ def hello_world():
     return "Hello World"
 
 
-@app.route("/fetchItems/", methods=['GET'])
+@app.route("/fetchItems/")
 def fetchItems(query: str = None):
     """EndPoint that Use query to make resquest to database
 
@@ -20,7 +20,8 @@ def fetchItems(query: str = None):
     :return: response of query
     :rtype: dict
     """
-    return Database().fetchQuery(query)
+    print(jsonify(Database().fetchQuery(query)))
+    # return 
 
 
 @app.route("/saveData/", methods=['GET'])

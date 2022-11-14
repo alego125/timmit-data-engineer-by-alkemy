@@ -15,7 +15,7 @@ de la secuencia del test.
 ## Ejecución
 ---
 
-**ANTES QUE NADA PARA LA EJECUCIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV**
+**ANTES QUE NADA PARA LA EJECUCIÓN E INSTALACIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV INDICADO EN LA CARPETA [PRINCIPAL DEL REPO](https://github.com/alego125/timmit-data-engineer-by-alkemy) Y LUEGO INSTALAR LAS DEPENDENCIAS DEL REQUIREMENTS.TXT**
 
 1) Instalamos el módulo encargado de la generación automática de la documentación llamado dics from test con el siguiente comando <code>pip install docs-from-tests</code>
 2) Ejecutamos el test posicionándonos en la carpeta de test y colocando el comando <code>pyhton test_calculadora.py</code>

@@ -11,7 +11,7 @@ anteriores.
 
 ## Ejecución
 ----
-**ANTES QUE NADA PARA LA EJECUCIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV**
+**ANTES QUE NADA PARA LA EJECUCIÓN E INSTALACIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV INDICADO EN LA CARPETA [PRINCIPAL DEL REPO](https://github.com/alego125/timmit-data-engineer-by-alkemy) Y LUEGO INSTALAR LAS DEPENDENCIAS DEL REQUIREMENTS.TXT**
 
 1) Instalar flake8 mediante pip install flake8 o con el requirements.txt global que se encuentra en la raíz de carpetas general
 2) Ejecutar flake8 para esto lo que debemos hacer es posicionarnos en la carpeta donde tenemos el archivo a analizar y colocar el comando en consola <code>flake8</code> con esto lo que sucede es que nos analiza el código y nos muestra las faltas con respecto a la norma PEP8 en el archivo

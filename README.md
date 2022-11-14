@@ -16,7 +16,7 @@
 
    **/nombreEntorno/Script/activate**
 
-3) INSTALAR DEPENDENCIAS
+3) INSTALAR DEPENDENCIAS GLOBALES O LOCALES EN LA CARPETA DE LA UNIDAD REQUERIDA SEGUN NECESIDAD
    
    <code>pip install -r requirements.txt</code>
 
