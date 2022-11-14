@@ -1,0 +1,19 @@
+2022-11-14 15:01:35,862 - INFO - 36 - 6 were inserted
+2022-11-14 15:01:35,865 - INFO - 44 - Iker - Casillas - 133 - ['Portero'] - True
+2022-11-14 15:01:35,865 - INFO - 44 - Carles - Puyol - 36 - ['Central', 'Lateral'] - True
+2022-11-14 15:01:35,866 - INFO - 44 - Sergio - Ramos - 28 - ['Lateral', 'Central'] - True
+2022-11-14 15:01:35,866 - INFO - 44 - Andrés - Iniesta - 30 - ['Centrocampista', 'Delantero'] - True
+2022-11-14 15:01:35,867 - INFO - 44 - Fernando - Torres - 30 - ['Delantero'] - True
+2022-11-14 15:01:35,868 - INFO - 44 - Iker - Casillas - 33 - ['Portero'] - True
+2022-11-14 15:01:35,869 - INFO - 44 - Carles - Puyol - 36 - ['Central', 'Lateral'] - True
+2022-11-14 15:01:35,869 - INFO - 44 - Sergio - Ramos - 28 - ['Lateral', 'Central'] - True
+2022-11-14 15:01:35,870 - INFO - 44 - Andrés - Iniesta - 30 - ['Centrocampista', 'Delantero'] - True
+2022-11-14 15:01:35,871 - INFO - 44 - Fernando - Torres - 30 - ['Delantero'] - True
+2022-11-14 15:01:35,872 - INFO - 44 - Leo - Baptistao - 22 - ['Delantero'] - False
+2022-11-14 15:01:35,875 - INFO - 53 - Andrés - Iniesta - 30 - ['Centrocampista', 'Delantero'] - True
+2022-11-14 15:01:35,876 - INFO - 53 - Fernando - Torres - 30 - ['Delantero'] - True
+2022-11-14 15:01:35,876 - INFO - 53 - Andrés - Iniesta - 30 - ['Centrocampista', 'Delantero'] - True
+2022-11-14 15:01:35,877 - INFO - 53 - Fernando - Torres - 30 - ['Delantero'] - True
+2022-11-14 15:01:35,877 - INFO - 53 - Leo - Baptistao - 22 - ['Delantero'] - False
+2022-11-14 15:01:35,880 - INFO - 60 - Udated
+2022-11-14 15:01:35,886 - INFO - 68 - Futbolists deleted correctly
