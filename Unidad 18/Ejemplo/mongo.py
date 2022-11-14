@@ -1,11 +1,11 @@
 import sys
 from pymongo import MongoClient
 from decouple import config
-sys.path.append("C:/Users/ale/Desktop/Programa Data Engeniere/Unidad 18/Practica")
+sys.path.append("C:/Users/ale/Desktop/Programa Data Engeniere/Unidad 18/Ejemplo")
 from futbolista import Futbolist
 from logs import logger
 
-# Creo una lista de objetos futbolista a insertar en la BD
+# Create a list of futbolists to insert into db
 futbolists = [
     Futbolist('Iker', 'Casillas', 33, ['Portero'], True),
     Futbolist('Carles', 'Puyol', 36, ['Central', 'Lateral'], True),

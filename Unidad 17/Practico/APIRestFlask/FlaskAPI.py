@@ -20,8 +20,8 @@ def fetchItems(query: str = None):
     :return: response of query
     :rtype: dict
     """
-    print(jsonify(Database().fetchQuery(query)))
-    # return 
+    # print(jsonify(Database().fetchQuery(query)))
+    return Database().fetchQuery(query)
 
 
 @app.route("/saveData/", methods=['GET'])

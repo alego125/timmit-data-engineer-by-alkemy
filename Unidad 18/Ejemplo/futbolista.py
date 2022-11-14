@@ -1,6 +1,7 @@
 """Module that model futbolist object
 """
 
+
 class Futbolist:
     """class futbolist with properties of the players
     """
@@ -13,6 +14,9 @@ class Futbolist:
 
     def toDBCollection (self) -> dict:
         """Convert object properties into dictionary
+
+        :return dictionary: futbolist params in dictionary form
+        :rtype dict
         """
         return {
             "nombre": self.nombre,
@@ -21,3 +25,8 @@ class Futbolist:
             "demarcacion":self.demarcacion,
             "internacional":self.internacional
         }
+
+    def __str__(self):
+        return "Nombre: %s - Apellidos: %s - Edad: %i - Demarcación: %s - Internacional: %r" \
+               %(self.nombre, self.apellidos, self.edad, self.demarcacion, self.internacional)
+

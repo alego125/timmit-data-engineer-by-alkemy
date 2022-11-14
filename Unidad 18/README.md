@@ -4,10 +4,14 @@
 >
 >Se creo un pequeño ejemplo de practica donde se realiza un paquete con un modulo con una clase futbolista con sus propiedades y luego se crea una base de datos futbolista desde la interfaz de mongodb, seguido se crea tambien una clase mongo.py donde se realizan un par de logicas donde se realiza la insercion de varios registros ademas de realizar actualizaciones busquedas y eliminacion de registros en la base de datos a la cual nos conectamos de manera local mediante el puerto 27017
 
+### Carpeta Practica
+----
+>Aqui encontramos un txt con las creaciones de la base de datos y los registros, ademas de algunas consultas y actualizaciones de registros que pedia el practico. Ademas se agregaron las colecciones que feron exportadas desde mogoDB comapass
+
 ## Ejecución
 ----
 1) Descargamos e instalamos [mongo db](https://www.mongodb.com/try/download/community) - Alternativamente podemos usar un contenedor docker de mongo db
-2) Despues descargamos la shell del mongo (A parti de la version 6.0 de mongodb no existe mas el comando mongo, hayq ue descargar la shell)
+2) Despues descargamos la shell de mongo (A parti de la version 6.0 de mongodb no existe mas el comando mongo, hayq ue descargar la shell)
    Descargar de [este enlace](https://www.mongodb.com/try/download/shell)
    Descomprimir la carpeta en el directorio c del sistema y con esto queda ya lista
 
@@ -33,6 +37,10 @@
    ~~~
    MONGO_SERVER=localhost
     MONGO_PORT=27017
+   ~~~
+3) Ejecutamos el modulo situados en la carpeta Practica y colocando el siguiente comando
+   ~~~
+   python mongo.py
    ~~~
 
 #### Algunos comandos utiles

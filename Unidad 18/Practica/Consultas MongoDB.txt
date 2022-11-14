@@ -1,0 +1,35 @@
+# 1 - Create database
+use students
+
+# 2 - Create Courses
+db.createCollection("courseA")
+db.createCollection("courseB")
+
+# 3 - Insert Documents
+db.courseA.insertOne({_id:1, Name:"Alejandro", LastName:"Gomez", Loc:"San Rafael"})
+db.courseB.insertOne({_id:1, Name:"Miguel", LastName:"Martinez", Loc:"Mendoza"})
+
+# 4 - Insert many documents
+db.courseA.insert([{_id:2, Name:"Marco",LastName:"Martinez"},{_id:3, Name:"Martina",LastName:"Garcia",Loc:"San Luis"},{_id:4, Name:"Patricia",LastName:"Marquez",Loc:""}])
+db.courseB.insert([{_id:2, Name:"Jorge",LastName:"Hernandez"},{_id:3, Name:"Matias",LastName:"Garcia",Loc:"Santa Fe"},{_id:4, Name:"Patricia",LastName:"Marquez",Loc:""}])
+
+# 5 - List documents in collection
+db.courseA.find()
+db.courseB.find()
+
+# 6 - List an specific document in a collection
+db.courseA.find({_id:4})
+db.courseA.find({ Name: "Patricia", LastName: "Marquez" })
+db.courseB.find({_id:2})
+db.courseB.find({Name:"Jorge", LastName:"Hernandez"})
+# Search by name or lastname
+db.courseA.find({$or:[{Name: "Alejandro"},{LastName:"Martinez"}]})
+db.courseA.find({$or:[{Name: "Matias"},{LastName:"Hernandez"}]})
+
+# 7 - Update register
+db.courseA.updateOne({_id:1},{$set:{Name:"Martina", LastName:"Parker"}})
+db.courseB.updateOne({_id:4},{$set:{Name:"Pablo", LastName:"Perez"}})
+
+# 8 - Realizar un update a varios registros de forma simultánea
+db.courseA.updateMany({ Name: "Pablo" }, { $set: { Name: "Pato"} })
+db.courseA.updateMany({ Name: "Marco" }, { $set: { Name: "Jonatan"} })
