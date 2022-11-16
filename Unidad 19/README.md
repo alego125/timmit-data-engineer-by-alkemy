@@ -13,7 +13,7 @@ Para la practica usamos dos fuentes de datos una de juicios en diferentes epocas
 ## Ejecución
 ---
 
-**Se recomienda instalar el entorno en jupyter notebook para trabajar aislado en este. Para instalarlo debemos seguir los pasos en el siguiente [enlace](https://github.com/alego125/timmit-data-engineer-by-alkemy/wiki/Como-setear-entorno-virtual-en-Jupyter-Notebook)**
+**Se recomienda instalar el entorno virtual en jupyter notebook como un nuevo kernel para trabajar aislado en este. Para instalarlo debemos seguir los pasos en el siguiente [enlace](https://github.com/alego125/timmit-data-engineer-by-alkemy/wiki/Como-setear-entorno-virtual-en-Jupyter-Notebook)**
 
 1) Instalar pandas y matplotlib con el siguiente comando
     ~~~
