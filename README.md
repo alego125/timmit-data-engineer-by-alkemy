@@ -42,4 +42,6 @@
 * [Unidad 16 - Acceso a base de datos SQLAlchemy](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/develop/Unidad%2016)
 * [Unidad 17 - Acceso a otros orígenes de datos](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2017)
 * [Unidad 18 - Bases de datos no relacionales](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2018)
+* [Unidad 19 - Manejo de datos con Pandas 1](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2019)
+* [Unidad 20 - Manejo de datos con Pandas 2](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2020)
 * [Enlaces Utiles](https://github.com/alego125/timmit-data-engineer-by-alkemy/wiki/Enlaces-de-utilidad)
