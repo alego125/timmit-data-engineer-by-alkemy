@@ -19,5 +19,5 @@ Para la practica usamos dos fuentes de datos una de juicios en diferentes epocas
     ~~~
     pip install pandas,matplotlib
     ~~~
-    O hacerlo a través de el archivo requirements.txt
+    O hacerlo a través de el archivo requirements.txt    
 2) Luego ejecutar normalmente los archivos notebook
