@@ -10,4 +10,4 @@
 *.doc
 Consultas pares grupo 6.txt
 .env
-.ipynb_checkpoints
+**/.ipynb_checkpoints
