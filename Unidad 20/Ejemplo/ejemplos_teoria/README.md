@@ -36,7 +36,7 @@ cargado correctamente.
 4) Descargar el archivo [full_orders.txt](https://drive.google.com/file/d/1pJfxW_gUedQlVsO55tVzbQ-FXjk4-jBF/view?usp=sharing) para la ejecucion de los ejemplos dentro de la carpeta [ejemplos_teoria]()
 3) Seguidamente deberemos instalar la base de datos a utilizar para realizar los ejemplos (dentro de cada archivo de ejemplo están las respectivas explicaciones y los links para las descargas). Para el caso de la práctica no hará falta ya que se usa sqlite3 que viene por defecto en python y genera una database local.
 4) Ejecutar los notbooks con sus códigos normalmente. 
-   Para la practica tenemos dos partes una es [modularizada]() y la practica ya final y la otra esta en la carpeta [notebook_prueba]() y son las pruebas realizadas sobre el notebook antes de modularizar el codigo
+   Para la practica tenemos dos partes una es [modularizada](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2020/Practica/modularizacion) y la practica ya final y la otra esta en la carpeta [notebook_prueba](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2020/Practica/notebook_pruebas) y son las pruebas realizadas sobre el notebook antes de modularizar el codigo
 
 ### Extra
 ---
