@@ -1,8 +1,8 @@
-# Unidad 2
+# Unidad 2 - Archivos de configuración
 ----
 >Se crean 4 ambiente para pruebas, además se crear dentro de la carpeta SRC el archivo python correspondiente a la practica en el cual se realizan diferentes formas de llamar al archivo de configuración .env que se encuentra en el directorio
 
-### Consigna
+### Guia
 ----
 Utilizando los conceptos aprendidos en el módulo 1- Archivos de
 Configuración, resolver el siguiente ejercicio:

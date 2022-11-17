@@ -1,4 +1,4 @@
-# Unidad 10
+# Unidad 10 - Testing (parte 1)
 ----
 >En este caso estaremos trabajando con testing especialmente el módulo **unittest** de python
 >Tendremos dos carpetas en la carpeta ejemplo hay un ejercicio de practica extra que se plantea donde tenemos un módulo principal llamado company el cual tiene un diccionario de elementos y se hace el macheo de un parámetro con el código del país en el diccionario.
@@ -8,7 +8,7 @@
 
 >Luego en la carpeta practico se realiza la ejecución del problema de practica planteado en la guía, donde se realiza una calculadora muy básica mediante una clase Calculadora y sus métodos como operaciones. Seguido en el módulo test_calculadora se realizan las operaciones de testeo correspondientes para cada método
 
-## Consigna
+## Guia
 ---
 
 Desarrollar un archivo Python llamado “calculadora.py” y dentro del

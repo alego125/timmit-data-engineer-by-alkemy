@@ -1,4 +1,4 @@
-# Unidad 19
+# Unidad 19 - Manejo de datos con pandas (parte 1)
 ---
 
 >Aca lo que haremos sera realizar las pruebas de pandas mostradas en la teoria dentro de la carpeta Ejemplo (dentro de esta se encuetra un notebook con la teria y otro con las practicas) y lo del practico dentro de la carpeta practica, ambos estaran dentro de un notbook donde se incluyen algunas explicaciones teoricas.

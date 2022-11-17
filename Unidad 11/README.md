@@ -1,10 +1,10 @@
-# Unidad 11
+# Unidad 11 - Testing (parte 2)
 ---
 >En este módulo se aborda la documentación de los tests.
 >Se realizaron 2 ejemplos cada uno de estos fueron ejemplo planteados en el apunte donde se probaron maneras sencillas de testeo y sobre todo de generación de documentación de estos
 >Luego en la carpeta practica se realiza el ejercicio propuesto en la práctica donde se generan sus tests con su respectiva documentación, para este caso se utilizan los paquetes de calculadora usados en la unidad anterior, también se le agregaron logs y comentarios extras además que se probó agregando una función extra que integre todos los test para que estos sean diagramados en un diagrama único que contenga la secuencia completa de test además de laso tests individuales lo cual no se le podría encontrar mucho sentido debido a la simplicidad de los mismos
 
-## Consigna
+## Guia
 ---
 Tomando como base el ejercicio práctico de la unidad 10
 (Test-Calculadora):

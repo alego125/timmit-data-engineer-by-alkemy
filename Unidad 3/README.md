@@ -1,10 +1,10 @@
-# Unidad 3
+# Unidad 3 - Logueo de eventos (parte 1)
 ----
 >Contamos con dos carpetas en la carpeta practica tenemos la práctica correspondiente a lo propuesto en el apunte, donde se crean dos archivos .py, uno para la lógica y otro para la configuración de logs, además del correspondiente archivo .log
 >
 >Luego en la carpeta ejemplo lo que se hace es crear un archivo .py con un ejemplo de practica con handlers un poco más extenso además de realizar una pequeña configuración del módulo flake8 para que no tome el máximo de 72 caracteres.
 
-### Consigna
+### Guia
 ----
 Se requiere convertir la siguiente lista a formato minúscula utilizando
 la función lower().

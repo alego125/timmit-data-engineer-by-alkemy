@@ -1,4 +1,4 @@
-# Unidad 18
+# Unidad 18 - Bases de datos no relacionales
 ----
 >La practica pide realizar creacion de una base de datos mediante la interfaz grafica y luego realizar acciones de creacion de documentos y de registros por consola dentro de la base de datos.
 >

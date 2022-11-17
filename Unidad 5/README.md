@@ -1,4 +1,4 @@
-# Unidad 5
+# Unidad 5 - Logueo de eventos en airflow
 ----
 > Toda esta práctica esta realizada en airflow mediante docker por media del framework [astronomer](https://docs.astronomer.io/astro/cli/overview)
 
@@ -11,7 +11,7 @@ Además los logs son generados por un handler personalizado mediante el módulo 
 include > logs
 ```
 
-### Consigna
+### Guia
 ----
 Utilizando los conceptos aprendidos en el módulo 5 - Loguear
 Eventos en Airflow, resolver el siguiente ejercicio.

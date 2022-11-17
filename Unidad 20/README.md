@@ -1,4 +1,4 @@
-# Unidad 20
+# Unidad 20 - Manejo de datos con pandas (parte 2)
 ---
 >Realizamos conexiones a diferentes motores de bases de datos, además de ver diferentes formas de transformaciones. Luego en la carpeta practica se encuentra la resolución del practico propuesto para la unidad, esta se encuetra dividia en dos carpetas mas donde una contiene la modularizacion y archivo final y en la otro un notebook con las pruebas realizadas.
 

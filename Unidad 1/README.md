@@ -1,8 +1,8 @@
-# Unidad 1
+# Unidad 1 - Entornos virtuales
 ----
 >Se crean 2 ambientes de trabajo para practicar en un notebook
 
-### Consigna
+### Guia
 ----
 Utilizando los conceptos aprendidos en el módulo 1- Entorno virtuales,
 resolver el siguiente ejercicio:

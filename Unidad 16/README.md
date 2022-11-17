@@ -1,4 +1,4 @@
-# Unidad 16
+# Unidad 16 - Acceso a base de datos SQLAlchemy
 ---
 >Creamos mediante SQLAlchemy una conexión a la base de datos primeramente para realizar la creación de tablas y la inserción y consulta de registros mediante este ORM.
 >En el archivo model.py se crea el modelo de la tabla customer la cual se crea mediante la clase Customer, luego en el módulo database.py se crea la conexión a la base de datos el engine y allí se crean los métodos para las diferentes consultas. También se crea un módulo de configuración para los handlers utilizados para hacer logging de las transacciones a la base de datos.

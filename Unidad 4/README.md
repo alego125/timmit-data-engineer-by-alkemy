@@ -1,4 +1,4 @@
-# Unidad 4
+# Unidad 4 - Logueo de eventos (parte 2)
 ----
 >Realizamos la práctica de la unidad correspondiente dentro de la carpeta práctica, donde se realiza la estructura correspondiente y se realizan los archivos con sus configuraciones correspondientes, realizando la impresión de logs dentro de la carpeta Logs separados en dos tipos main y functions
 >
@@ -10,7 +10,7 @@
 >
 >Por último en el ejemplo 3 se realiza una configuración personalizada de los logs en un archivo .conf
 
-### Consigna
+### Guia
 ----
 Utilizando los conceptos aprendidos en el módulo 4 - Loguear
 Eventos II, resolver el siguiente ejercicio.

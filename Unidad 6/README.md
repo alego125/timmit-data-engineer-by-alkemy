@@ -1,4 +1,4 @@
-# Unidad 6
+# Unidad 6 - Comentarios en python
 ----
 
 >En este caso toca el tema de comentarios el cual se realiza de una manera muy sencilla, colocando comentarios a una logica propuesta de un programa de listado

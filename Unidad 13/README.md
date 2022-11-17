@@ -1,9 +1,9 @@
-# Unidad 13
+# Unidad 13 - DB Relacionales DDL
 ---
 >En esta unidad se realizó la creación de una base de datos con la posterior inserción de datos para luego generar un archivo .sql con la exportación de la base de datos para luego ser importada por otro usuario o recuperarse en caso de ser necesario
 >También se probaron dos módulos de python para manera estas bases de datos desde código python mediante queries uno es pytds y el otro pyodbc
 
-## Consigna
+## Guia
 ---
 1. Instalar SQL Server Express
 2. Instalar SQL Server Management Studio

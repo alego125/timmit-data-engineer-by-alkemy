@@ -1,4 +1,4 @@
-# Unidad 7
+# Unidad 7 - Dockstrings
 ----
 >Aquí se realiza la creación de docstrings mediante el módulo sphinx y su sintaxis.
 >Para esto se realiza el ejercicio práctico sugerido en la guía el cual se encuentra dentro de la carpeta "Practica" y tambien se realizó un ejemplo aparte el cual se encuentra en la carpeta ejemplo, el mismo fue propuesto en la guía.

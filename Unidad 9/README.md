@@ -1,11 +1,11 @@
-# Unidad 9
+# Unidad 9 - Manejo de excepciones
 ----
 >En este caso estaremos realizando practicas sobre manejo de excepciones en python
 >En la carpeta ejemplo se ve un módulo donde se hacen comprobaciones con una función y assert de por medio
 >En la carpeta Practica tenemos dos módulos el módulo practico_exceptions_assert se probaron diferentes maneras de trabajar con el assert siendo algunas funcionales y otras no solo dejamos la funcional si comentar.
 >Luego en el módulo try-except se realiza una clase List que lo que hace es comprobar si un índice existe o no en la lista y a partir de esto lanzar una excepción, cada método de la clase es una manera diferente de comprobación que se puede realizar
 
-## Consigna
+## Guia
 ---
 Dada una lista con diferentes medios de transporte, diseñar una
 función solicite el número de índice de la lista y que imprima por

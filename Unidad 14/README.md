@@ -1,8 +1,8 @@
-# Unidad 14
+# Unidad 14 - DB Relacionales DML
 ---
 >En esta tenemos un practico propuesto en la guía así como también un ejercicio de colaboración donde se revisan las queries de ambos grupos siendo un grupo el que hace las queries pares y otro las impares, luego se intercambian estos archivos .sql para corroborar y revisar las consultas del otro
 
-## Consigna
+## Guia
 ---
 Resolver las siguientes consultas:
 * Listar los nombres de los proveedores cuya ciudad contenga
