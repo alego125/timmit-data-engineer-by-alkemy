@@ -1,0 +1,6 @@
+mysql-connector-python==8.0.31
+SQLAlchemy==1.4.43
+pyodbc==4.0.34
+PyMySQL==1.0.2
+pandas==1.5.1
+psycopg2==2.9.5
