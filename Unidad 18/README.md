@@ -4,6 +4,24 @@
 >
 >Se creo un pequeño ejemplo de practica donde se realiza un paquete con un modulo con una clase futbolista con sus propiedades y luego se crea una base de datos futbolista desde la interfaz de mongodb, seguido se crea tambien una clase mongo.py donde se realizan un par de logicas donde se realiza la insercion de varios registros ademas de realizar actualizaciones busquedas y eliminacion de registros en la base de datos a la cual nos conectamos de manera local mediante el puerto 27017
 
+## Guía
+---
+Utilizando los conceptos aprendidos en el módulo 18- Bases de datos
+no relacionales, se pide resolver los siguientes puntos:
+
+* Instalar MongoDB y Compass
+* Acceder desde compass y crear una base de datos
+* Acceder a MongoDB desde PowerShell
+* Acceder a la base de datos del paso 2
+* Crear dos colecciones
+* Insertar 1 documentos
+* Insertar varios documentos con un solo comando
+* Listar los documentos existentes en una colección
+* Listar un documento específico dentro de la colección
+* Realizar un update en un registro
+* Realizar un update a varios registros de forma simultánea
+
+
 ### Carpeta Practica
 ----
 >Aqui encontramos un txt con las creaciones de la base de datos y los registros, ademas de algunas consultas y actualizaciones de registros que pedia el practico. Ademas se agregaron las colecciones que feron exportadas desde mogoDB comapass
