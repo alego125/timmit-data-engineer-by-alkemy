@@ -12,5 +12,5 @@ Consultas pares grupo 6.txt
 .env
 **/ipynb_checkpoints
 **/data-curious
-**.png
-**.docx"
+*.png
+*.docx"
