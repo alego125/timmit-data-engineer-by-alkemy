@@ -1,4 +1,6 @@
 *.pdf
+*.png
+*.docx
 **/docker
 **/venv
 **/Curso de sql server
@@ -12,5 +14,3 @@ Consultas pares grupo 6.txt
 .env
 **/ipynb_checkpoints
 **/data-curious
-*.png
-*.docx"
