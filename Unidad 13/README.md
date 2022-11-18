@@ -1,9 +1,10 @@
-# Unidad 13 - DB Relacionales DDL
+# 📚 Unidad 13 - DB Relacionales DDL 
 ---
 >En esta unidad se realizó la creación de una base de datos con la posterior inserción de datos para luego generar un archivo .sql con la exportación de la base de datos para luego ser importada por otro usuario o recuperarse en caso de ser necesario
+
 >También se probaron dos módulos de python para manera estas bases de datos desde código python mediante queries uno es pytds y el otro pyodbc
 
-## Guia
+## 📝 Guia
 ---
 1. Instalar SQL Server Express
 2. Instalar SQL Server Management Studio
@@ -22,10 +23,10 @@ datos
 8. Restaurar la base de datos desde el script generado en el
 punto 6
 
-## Ejecución
+## 💻 Setup
 ---
 
-1) Instalación de SQL Server
+1) **Instalación de SQL Server Windows (Otros SO usar docker)**
    
 Para comenzar con la instalación de SQL server express, debemos ingresar 
 a la siguiente [URL](https://www.microsoft.com/es-es/sql-server/sql-server-downloads):
@@ -88,7 +89,7 @@ acceder a la herramienta.
 
 ![image](https://user-images.githubusercontent.com/76167482/201482288-652a51bc-d9ed-4ba0-b646-4e5be3641f8b.png)
 
-2) Ejecución
+1) **Ejecución**
 
 Al ejecutarlo, aparecerá la pantalla de conexión al motor de SQL Server.
 Debemos seleccionar “Server Name” (Por defecto el nombre estará formado
@@ -124,7 +125,7 @@ De esta forma, se verifica la correcta instalación de SQL Server Express y
 SQL Server Management Studio. Avanzamos al siguiente tema para poder
 comenzar a crear objetos en SQL Server.
 
-3) Exportación
+3) **Exportación**
    
 **Exportar sql**
 
@@ -178,7 +179,7 @@ ejecutar para volver a crear la base de datos exportada.
 
 ![image](https://user-images.githubusercontent.com/76167482/201482437-c564efe1-69bf-48db-a14d-c42751274cbf.png)
 
-## Ejecicion de archivo .py
+## ⚡ Ejecicion de archivo .py
 ---
 >Acá debemos primeramente realizar la instalación de los módulos correspondientes o directamente ejecutar el requirements.txt principal en la carpeta rais
 

@@ -9,10 +9,7 @@ logger.setLevel(logging.DEBUG)
 # Creo el handler en este caso el file handler
 f_handler = logging.FileHandler("results.log")
 
-# Seteo el nivel de severidad del filehandler, en este caso al
-# ser un solo handler no es necesario pero en caso de que
-# hubiesen mas de uno y se requieran diferentes niveles de
-# severidad si se deberia indicar en cada handler su nivel
+# Seteo el nivel de severidad del filehandler, 
 f_handler.setLevel(logging.INFO)
 
 # Creo el formater con el formato que quiero que tenga el log

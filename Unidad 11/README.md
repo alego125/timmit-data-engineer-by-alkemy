@@ -1,18 +1,21 @@
-# Unidad 11 - Testing (parte 2)
+# 📚 Unidad 11 - Testing (parte 2)  
 ---
 >En este módulo se aborda la documentación de los tests.
->Se realizaron 2 ejemplos cada uno de estos fueron ejemplo planteados en el apunte donde se probaron maneras sencillas de testeo y sobre todo de generación de documentación de estos
->Luego en la carpeta practica se realiza el ejercicio propuesto en la práctica donde se generan sus tests con su respectiva documentación, para este caso se utilizan los paquetes de calculadora usados en la unidad anterior, también se le agregaron logs y comentarios extras además que se probó agregando una función extra que integre todos los test para que estos sean diagramados en un diagrama único que contenga la secuencia completa de test además de laso tests individuales lo cual no se le podría encontrar mucho sentido debido a la simplicidad de los mismos
 
-## Guia
+>Se realizaron 2 ejemplos cada uno de estos fueron ejemplo planteados en el apunte donde se probaron maneras sencillas de testeo y sobre todo de generación de documentación de estos
+
+>Luego en la carpeta practica se realiza el ejercicio propuesto en la práctica donde se generan los tests con su respectiva documentación, para este caso se utilizan los paquetes de calculadora usados en la unidad anterior, también se le agregaron logs y comentarios extras además que se probó agregando una función extra que integre todos los test para que estos sean diagramados en un diagrama único que contenga la secuencia completa de test además de los tests individuales lo cual no se le podría encontrar mucho sentido debido a la simplicidad de los mismos
+
+## 📝 Guia  
 ---
 Tomando como base el ejercicio práctico de la unidad 10
 (Test-Calculadora):
+
 * Implementar la librería docs-from-test para incorporar un diagrama
 de la secuencia del test.
 * Implementar un registro de los resultados tests en formato txt.
 
-## Ejecución
+## 💻 Setup 
 ---
 
 **ANTES QUE NADA PARA LA EJECUCIÓN E INSTALACIÓN TENER ACTIVADO EL ENTORNO VIRTUAL VENV INDICADO EN LA CARPETA [PRINCIPAL DEL REPO](https://github.com/alego125/timmit-data-engineer-by-alkemy) Y LUEGO INSTALAR LAS DEPENDENCIAS DEL REQUIREMENTS.TXT**
@@ -20,7 +23,7 @@ de la secuencia del test.
 1) Instalamos el módulo encargado de la generación automática de la documentación llamado dics from test con el siguiente comando <code>pip install docs-from-tests</code>
 2) Ejecutamos el test posicionándonos en la carpeta de test y colocando el comando <code>pyhton test_calculadora.py</code>
 
-##### Secuencia de pasos para la generación de proyecto, configuración modulo y generación de documentación
+##### 👣 Secuencia de pasos para la generación de proyecto, configuración modulo y generación de documentación
 
 1) Generar la estructura del proyecto
 
@@ -39,6 +42,7 @@ En esta estructura colocaremos en functions (o puede tener el nombre que queramo
 2) Ejemplo de código para cada modulo
 
 El módulo functions contiene tres funciones:
+
 * hola (): que retorna la cadena ‘hola’
 * mundo (): que retorna la cadena ‘mundo’
 * get_valid_word (): que llama a las dos funciones anteriores y

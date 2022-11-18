@@ -1,10 +1,12 @@
 import unittest
 import sys
+# Set path in sys to get Company module
 sys.path.append('C:/Users/ale/Desktop/Programa Data Engeniere/Unidad 10/ejercicio_ejemplo/codigo')
 from Company import get_country
 
 
-class TestLibraryCompany(unittest.TestCase):    
+class TestLibraryCompany(unittest.TestCase):
+
     def test_allow_country(self):
         iso_code_test_list = ['DK', 'DE', 'UK', 'SE', 'NO']
         for iso_code in iso_code_test_list:

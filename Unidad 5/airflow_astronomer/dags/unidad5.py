@@ -63,15 +63,11 @@ def read_top10():
         to_countries_df.to_excel(
             '/usr/local/airflow/include/archivos_tmp/top10_medalsGoals.xlsx')
 
-        # Logging message INFO Success --- Completar
         logger.info("...xls file was created succesfully...")
 
     except Exception:
-        # Logging message ERROR Fail --- Completar
-        # Logging message ERROR Fail --- Completar
         logger.error("...excel file can't be created...", exc_info=True)
-        # Throw exception to stop dag with something be
-        # wrong in that case lxs file can't be crea
+        # If you want to make dag fail use the following line and import AirflowFailException
         # raise AirflowFailException("Error Read Top10")
 
 

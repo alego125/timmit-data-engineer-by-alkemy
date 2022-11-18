@@ -1,10 +1,11 @@
-# Unidad 3 - Logueo de eventos (parte 1)
+# 📚 Unidad 3 - Logueo de eventos (parte 1) 
 ----
->Contamos con dos carpetas en la carpeta practica tenemos la práctica correspondiente a lo propuesto en el apunte, donde se crean dos archivos .py, uno para la lógica y otro para la configuración de logs, además del correspondiente archivo .log
+
+>Contamos con dos carpetas, en la carpeta practica tenemos lo correspondiente a lo propuesto en el apunte, donde se crean dos archivos .py, uno para la lógica y otro para la configuración de logs, además del correspondiente archivo .log
 >
 >Luego en la carpeta ejemplo lo que se hace es crear un archivo .py con un ejemplo de practica con handlers un poco más extenso además de realizar una pequeña configuración del módulo flake8 para que no tome el máximo de 72 caracteres.
 
-### Guia
+### 📝 Guia
 ----
 Se requiere convertir la siguiente lista a formato minúscula utilizando
 la función lower().
@@ -20,11 +21,12 @@ Guardar los logs en el archivo results.log
 Resolver utilizando el logger por defecto que se incluye en el módulo
 Logging de la librería estándar de Python.
 
-### Ejecución
+### 💻 Setup
 ---
 >Para este ejercicio particularmente no se necesitan seteos previos ya que se utiliza el módulo logging de python que trae por defecto por lo cual para ejecutar simplente hacerlo desde el archivo fruits
 
 ~~~
+Archivos ejecutables
 * Práctica
   > python fruits.py
 * Ejemplo

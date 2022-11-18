@@ -1,10 +1,12 @@
-# Unidad 21
+# 📚 Unidad 21 
 ---
 >En esta unidad se aborda el tema de hadoop - hive y spark que son herramientas para el procesado de big data. 
+
 >En este caso no hay practica asociada, pero se coloca un ejemplo de referencia para ejecutar con spark el cual debe ser previamente instalado en el entorno o el sistema
+
 >Otra manera para evitarse la configuración del entorno es ejecutarlo mediante un contenedor docker el cual se ejecuta siguiendo las instrucciones más abajo descritas.
 
-## Ejecución
+## 💻 Setup
 ---
 1) Descargamos la imagen de docker desde docker hub con el siguiente [enlace](https://hub.docker.com/r/jupyter/pyspark-notebook)
 2) Arrancar la imagen de docker con el siguiente comando

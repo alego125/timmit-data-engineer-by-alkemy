@@ -1,14 +1,17 @@
-# Unidad 7 - Dockstrings
+# 📚 Unidad 7 - Dockstrings 
 ----
 >Aquí se realiza la creación de docstrings mediante el módulo sphinx y su sintaxis.
->Para esto se realiza el ejercicio práctico sugerido en la guía el cual se encuentra dentro de la carpeta "Practica" y tambien se realizó un ejemplo aparte el cual se encuentra en la carpeta ejemplo, el mismo fue propuesto en la guía.
+>Para esto se realiza el ejercicio práctico sugerido en la guía el cual se encuentra dentro de la carpeta "Practica" y tambien se realizó un ejemplo aparte el cual se encuentra en la carpeta ejemplo, el mismo fue propuesto en la guía teórica.
 >
 >Ejemplo
+
 >* Para este caso lo que se realiza es una clase Teacher que contiene las propiedades de un profesor y los métodos para mostrarlas
+
 >Practico
+
 >* Esta fue la resolución del ejercicio propuesto en el cual se crea una clase empleado, la cual tiene propiedades de este y métodos que nos muestran esta información, además se realiza la documentación mediante docstring con sphinx. Se realizaron dos módulos uno para mostrar la información en español y otro para mostrar la información en inglés, el segundo fue opcional y solo de practica para ver como mostrar más de un módulo en la documentación generada por sphinx.
 
-## Consigna
+## 📝 Guia
 ----
 Utilizando los conceptos aprendidos en el módulo 7 - Docstrings,
 resolver el siguiente ejercicio.
@@ -31,7 +34,7 @@ es 12345678”
 Documentar el módulo y las funciones utilizando Docstring y de ser
 posible implementar Sphinx para documentar el mismo.
 
-### Pasos previos a ejecución
+### 👣 Pasos previos a ejecución
 ----
 1. Crear la siguiente estructura de carpetas. Adentro de la carpeta
 source crear el archivo main.py con el siguiente código.
@@ -105,7 +108,7 @@ Estructura de archivos
 
 ![image](https://user-images.githubusercontent.com/76167482/201475368-485eac3f-ba4f-4c0e-8d21-453ff7e5602c.png)
 
-## Ejecución
+## 💻 Setup
 ----
 Luego de haber realizado los pasos anteriores
 

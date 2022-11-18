@@ -21,7 +21,7 @@
 
 2) LUEGO ACTIVAR EL ENRTORNO
 
-   **/nombreEntorno/Script/activate**
+   <code>/nombreEntorno/Script/activate</code>
 
 3) INSTALAR DEPENDENCIAS GLOBALES O LOCALES EN LA CARPETA DE LA UNIDAD REQUERIDA SEGUN NECESIDAD
    
