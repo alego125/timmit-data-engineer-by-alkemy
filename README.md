@@ -3,7 +3,7 @@
 
 >**Trabajos realizados durante el programa Training de Timmit [Prisma medios de pago](https://www.prismamediosdepago.com/)**
 **dictado por [Alkemy](https://www.alkemy.org/) para la inserción en el mundo IT como data Engineer.**
-
+>
 >**En la sección del final podemos ver el índice de los temas que se tocaron en la formación.**
 
 >Cada unidad tiene su explicación correspondiente.
@@ -11,7 +11,7 @@
 >Cada Carpeta de unidad contiene en su interior una o dos subcarpetas
 >
 > * Carpeta Practica: En esta estará lo referido a lo que se pide específicamente en la práctica propuesta de la unidad
-
+>
 > * Carpeta Ejemplo: En esta carpeta se encuentran practicas extra realizadas además de la propuesta
 
 
