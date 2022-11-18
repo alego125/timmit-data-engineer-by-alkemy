@@ -1,2 +1,5 @@
 pandas==1.5.1
 matplotlib
+openpyxl
+nbformat>=4.2.0
+plotly

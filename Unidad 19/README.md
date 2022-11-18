@@ -34,5 +34,9 @@ Para la practica usamos dos fuentes de datos una de juicios en diferentes epocas
     ~~~
     pip install pandas,matplotlib
     ~~~
-    O hacerlo a través de el archivo requirements.txt    
+    Para la ejecucion del archivo de la carpeta ejemplo llamado **resolucion_ejemplos** instalar las siguientes dependencias
+    ~~~
+    pip install plotly, nbformat>=4.2.0, openpyxl
+    ~~~
+    O hacerlo todo junto a través del archivo requirements.txt    
 2) Luego ejecutar normalmente los archivos notebook
