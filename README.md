@@ -1,5 +1,13 @@
 # Data Engineer Timmit Training Program
 ----
+
+~~~
+Trabajos realizados durante el programa Training de Timmit (Prisma medios de pago) 
+dictado por Alkemy para la inserción en el mundo IT como data Engineer.
+
+En la sección del final podemos ver el índice de los temas que se tocaron en la formación.
+~~~
+
 >Cada unidad tiene su explicación correspondiente.
 >Cada Carpeta de unidad contiene en su interior una o dos subcarpetas
 >
@@ -44,5 +52,5 @@
 * [Unidad 18 - Bases de datos no relacionales](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2018)
 * [Unidad 19 - Manejo de datos con Pandas 1](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2019)
 * [Unidad 20 - Manejo de datos con Pandas 2](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2020)
-* Unidad 21 - Fundamentos de Hadoop_Spark_Hive (Si contenido práctico)
+* [Unidad 21 - Fundamentos de Hadoop_Spark y Hive](https://github.com/alego125/timmit-data-engineer-by-alkemy/tree/main/Unidad%2021)
 * [Enlaces Utiles](https://github.com/alego125/timmit-data-engineer-by-alkemy/wiki/Enlaces-de-utilidad)
