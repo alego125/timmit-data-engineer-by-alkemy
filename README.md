@@ -1,4 +1,4 @@
-# 📣🆕🆒👨‍🎓 Data Engineer Timmit Training Program 👨‍🎓🆕🆒📣
+# 📣👨‍🎓 Data Engineer Timmit Training Program 👨‍🎓📣
 ----
 
 >**Trabajos realizados durante el programa Training de Timmit [Prisma medios de pago](https://www.prismamediosdepago.com/)**
