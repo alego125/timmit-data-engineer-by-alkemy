@@ -2,8 +2,8 @@
 ----
 
 ~~~
-Trabajos realizados durante el programa Training de Timmit (Prisma medios de pago) 
-dictado por Alkemy para la inserción en el mundo IT como data Engineer.
+Trabajos realizados durante el programa Training de Timmit [Prisma medios de pago](https://www.prismamediosdepago.com/) 
+dictado por [Alkemy](https://www.alkemy.org/) para la inserción en el mundo IT como data Engineer.
 
 En la sección del final podemos ver el índice de los temas que se tocaron en la formación.
 ~~~
