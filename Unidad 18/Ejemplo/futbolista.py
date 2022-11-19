@@ -29,4 +29,3 @@ class Futbolist:
     def __str__(self):
         return "Nombre: %s - Apellidos: %s - Edad: %i - Demarcación: %s - Internacional: %r" \
                %(self.nombre, self.apellidos, self.edad, self.demarcacion, self.internacional)
-

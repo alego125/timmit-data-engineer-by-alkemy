@@ -21,7 +21,7 @@ port = config('MONGO_PORT')
 # PASO 1: Conect to Mongo server, we give host and port
 mongoClient = MongoClient(host, int(port))
 
-# PASO 2: Database conection
+# PASO 2: Database connection
 db = mongoClient.Futbol
 
 # PASO 3: Get collection to work with it
@@ -54,7 +54,7 @@ try:
 except Exception as ex:
     logger.error(f'Error to find futbolist - {ex}')
 
-# PASO 4.3: "UPDATE" -> Update age of players
+# PASO 4.3: "UPDATE" -> Update age of players that have more than 30 years
 try:
     collection.update_one({"edad": {"$gt": 30}}, {"$inc": {"edad": 100}}, upsert=False)
     logger.info("Udated")

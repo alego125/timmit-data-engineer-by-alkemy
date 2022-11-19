@@ -2,9 +2,11 @@
 ---
 >En esta unidad se aborda el tema de hadoop - hive y spark que son herramientas para el procesado de big data. 
 
->En este caso no hay practica asociada, pero se coloca un ejemplo de referencia para ejecutar con spark el cual debe ser previamente instalado en el entorno o el sistema
+>En este caso no hay practica asociada, pero se coloca dos ejemplos de referencia para ejecutar con spark el cual debe ser previamente instalado en el entorno o el sistema
 
 >Otra manera para evitarse la configuración del entorno es ejecutarlo mediante un contenedor docker el cual se ejecuta siguiendo las instrucciones más abajo descritas.
+
+>**Nota:** Los ejemplos se encuentran en dos carpetas, uno fue dado en clase como muestra y el otro es un ejercicio de modelos de predicción con spark 
 
 ## 💻 Setup
 ---

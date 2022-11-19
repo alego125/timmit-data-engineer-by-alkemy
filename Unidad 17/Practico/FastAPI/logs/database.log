@@ -13,3 +13,30 @@
             address:pipa 32
             zip_code:3321
          deleted
+2022-11-19 14:21:17,358 - logsHandlers - ERROR - Register not exist
+2022-11-19 14:21:22,065 - logsHandlers - ERROR - Register not exist
+2022-11-19 14:21:43,091 - logsHandlers - ERROR - Register not exist
+2022-11-19 14:21:53,073 - logsHandlers - ERROR - Register not exist
+2022-11-19 14:26:12,624 - logsHandlers - ERROR - Register not exist
+2022-11-19 14:29:27,292 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:31:04,367 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=20,email=dsfjkaldjf@gmail.com, address=fjsadlfjk, Zip Code=5435)> deleted
+2022-11-19 14:31:35,539 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:31:57,241 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:36:48,024 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:37:21,699 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:38:04,066 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=20,email=dsfjkaldjf@gmail.com, address=los picunches, Zip Code=5435)> deleted
+2022-11-19 14:39:02,281 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:39:25,585 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:39:25,616 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:39:44,793 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:39:44,821 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:39:44,847 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted
+2022-11-19 14:39:59,763 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:39:59,792 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:39:59,817 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted
+2022-11-19 14:40:17,654 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted
+2022-11-19 14:40:24,477 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted
+2022-11-19 14:40:26,605 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted
+2022-11-19 14:40:54,645 - logsHandlers - INFO - Info saved successfuly
+2022-11-19 14:40:54,674 - logsHandlers - INFO - Element updated succesfully
+2022-11-19 14:40:54,702 - logsHandlers - INFO - Customer <Customer(name=Pablo,age=40,email=alejandro.gomez@gmail.com, address=martos22, Zip Code=4422)> deleted

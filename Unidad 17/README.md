@@ -82,4 +82,14 @@ Se podrá acceder a la ruta para ver la documentación de la api y sus end point
 **http://localhost:8000/docs**
 
 ![image](https://user-images.githubusercontent.com/76167482/201641804-e4fd63db-f252-4685-bd3a-05a6edb6b412.png)
+
+
+### ✅ Test Execution
 ----
+
+>En este caso se creó un archivo test **solo para FastAPI** donde se prueban con un ejemplo los endpoints creados. Estos test se hacen a través del módulo de pytest.
+
+>Para ejecutar el test hay que instalar el módulo request el cual se encarga de hacer las peticiones a los endpoints. <code>pip install requests</code>
+
+>Por último para la ejecución del test primero ejecutar el servidor desde el archivo main con el comando más arriba descrito, luego que el servidor este corriendo situarse sobre la carpeta que contiene el archivo tests.py desde la consola y colocar el siguiente comando <code>pytest tests.py</code>
+

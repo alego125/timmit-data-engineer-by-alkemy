@@ -53,11 +53,14 @@ no relacionales, se pide resolver los siguientes puntos:
    <code>pip install -r requirements.txt</code>
    
    Se realiza de la manera que mas se quiera
+
 2) creamos el archivo .env con la configuracion necesaria para realiza la conexion a la base de datos mongodb
+   
    ~~~
    MONGO_SERVER=localhost
     MONGO_PORT=27017
    ~~~
+
 3) Ejecutamos el modulo situados en la carpeta Practica y colocando el siguiente comando
    
    <code>python mongo.py</code>
